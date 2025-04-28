@@ -6,10 +6,6 @@
   <title>Audio Table Dashboard</title>
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- DataTables JS -->
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
     #sort-buttons button { margin: 5px; }
@@ -19,12 +15,12 @@
 <body>
   <h1>Audio Table Dashboard</h1>
   <div id="sort-buttons">
-    <!-- One-click sort buttons for each column -->
+    <!-- Sort buttons for each column -->
     <button data-col="0">Sort by Audio</button>
     <button data-col="1">Sort by Side A</button>
     <button data-col="2">Sort by Side B</button>
     <button data-col="3">Sort by Date</button>
-    <button data-col="4">Sort by Reason</button>
+    <button data-col="4">Sort by Entry Reason</button>
     <button data-col="5">Sort by Length</button>
     <button data-col="6">Sort by Quality</button>
   </div>
@@ -41,58 +37,49 @@
         <th>Quality</th>
       </tr>
     </thead>
-   
+    <tbody></tbody>
   </table>
 
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   <script>
     $(document).ready(function() {
-      // Initialize DataTable without default sorting
-      var table = $('#audioTable').DataTable({ order: [] });
-
-      // Attach click handlers to sort buttons
-      $('#sort-buttons button').on('click', function() {
-        var colIndex = $(this).data('col');
-        var currentOrder = table.order();
-        var dir = 'asc';
-        if (currentOrder.length && currentOrder[0][0] === colIndex && currentOrder[0][1] === 'asc') {
-          dir = 'desc';
-        }
-        table.order([colIndex, dir]).draw();
-      });
+      // Fetch JSON data and initialize table
+      $.getJSON('data.json?ts=' + Date.now())
+        .done(function(rows) {
+          console.log('Loaded rows:', rows);
+          var table = $('#audioTable').DataTable({
+            data: rows,
+            columns: [
+              {
+                data: 'audio',
+                render: function(path) {
+                  return '<audio controls src="' + path + '"></audio>';
+                }
+              },
+              { data: 'sideA' },
+              { data: 'sideB' },
+              { data: 'date' },
+              { data: 'entryReason' },
+              { data: 'length' },
+              { data: 'quality' }
+            ],
+            order: []
+          });
+          // Attach sort button handlers
+          $('#sort-buttons button').on('click', function() {
+            var col = $(this).data('col');
+            var current = table.order()[0] || [];
+            var dir = (current[0] === col && current[1] === 'asc') ? 'desc' : 'asc';
+            table.order([col, dir]).draw();
+          });
+        })
+        .fail(function(jq, status, err) {
+          console.error('Failed to load data.json:', status, err);
+        });
     });
   </script>
-  <script>
-  $(document).ready(function() {
-    // load JSON with a cache-buster
-    $.getJSON('data.json?ts=' + Date.now(), function(rows) {
-      console.log('Loaded rows:', rows);
-      var table = $('#audioTable').DataTable({
-        data: rows,
-        columns: [
-          { data: 'audio',
-            render: path => `<audio controls src="${path}"></audio>` },
-          { data: 'sideA' },
-          { data: 'sideB' },
-          { data: 'date' },
-          { data: 'entryReason' },
-          { data: 'length' },
-          { data: 'quality' }
-        ],
-        order: []
-      });
-      // sort-button handlers
-      $('#sort-buttons button').on('click', function() {
-        var col = $(this).data('col'),
-            cur = table.order()[0] || [],
-            dir = (cur[0] === col && cur[1] === 'asc') ? 'desc' : 'asc';
-        table.order([col, dir]).draw();
-      });
-    })
-    .fail(function(jq, status, err) {
-      console.error('JSON load failed:', status, err);
-    });
-  });
-</script>
-
 </body>
 </html>
