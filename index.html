@@ -41,18 +41,7 @@
         <th>Quality</th>
       </tr>
     </thead>
-    <tbody>
-      <!-- Sample data row. Replace with your dynamic data or additional <tr> elements -->
-      <tr>
-        <td><audio controls src="/path/to/audio1.mp3"></audio></td>
-        <td>Interview</td>
-        <td>Discussion</td>
-        <td>2025-04-27</td>
-        <td>A</td>
-        <td>03:15</td>
-        <td>Good</td>
-      </tr>
-    </tbody>
+   
   </table>
 
   <script>
@@ -72,5 +61,38 @@
       });
     });
   </script>
+  <script>
+  $(document).ready(function() {
+    // load JSON with a cache-buster
+    $.getJSON('data.json?ts=' + Date.now(), function(rows) {
+      console.log('Loaded rows:', rows);
+      var table = $('#audioTable').DataTable({
+        data: rows,
+        columns: [
+          { data: 'audio',
+            render: path => `<audio controls src="${path}"></audio>` },
+          { data: 'sideA' },
+          { data: 'sideB' },
+          { data: 'date' },
+          { data: 'entryReason' },
+          { data: 'length' },
+          { data: 'quality' }
+        ],
+        order: []
+      });
+      // sort-button handlers
+      $('#sort-buttons button').on('click', function() {
+        var col = $(this).data('col'),
+            cur = table.order()[0] || [],
+            dir = (cur[0] === col && cur[1] === 'asc') ? 'desc' : 'asc';
+        table.order([col, dir]).draw();
+      });
+    })
+    .fail(function(jq, status, err) {
+      console.error('JSON load failed:', status, err);
+    });
+  });
+</script>
+
 </body>
 </html>
