@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Table Dashboard</title>
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #sort-buttons button { margin: 5px; }
+    table.dataTable tbody tr { vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <h1>Audio Table Dashboard</h1>
+  <div id="sort-buttons">
+    <!-- One-click sort buttons for each column -->
+    <button data-col="0">Sort by Audio</button>
+    <button data-col="1">Sort by Side A</button>
+    <button data-col="2">Sort by Side B</button>
+    <button data-col="3">Sort by Date</button>
+    <button data-col="4">Sort by Reason</button>
+    <button data-col="5">Sort by Length</button>
+    <button data-col="6">Sort by Quality</button>
+  </div>
+
+  <table id="audioTable" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Audio</th>
+        <th>Side A</th>
+        <th>Side B</th>
+        <th>Date</th>
+        <th>Entry Reason</th>
+        <th>Length</th>
+        <th>Quality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Sample data row. Replace with your dynamic data or additional <tr> elements -->
+      <tr>
+        <td><audio controls src="/path/to/audio1.mp3"></audio></td>
+        <td>Interview</td>
+        <td>Discussion</td>
+        <td>2025-04-27</td>
+        <td>A</td>
+        <td>03:15</td>
+        <td>Good</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    $(document).ready(function() {
+      // Initialize DataTable without default sorting
+      var table = $('#audioTable').DataTable({ order: [] });
+
+      // Attach click handlers to sort buttons
+      $('#sort-buttons button').on('click', function() {
+        var colIndex = $(this).data('col');
+        var currentOrder = table.order();
+        var dir = 'asc';
+        if (currentOrder.length && currentOrder[0][0] === colIndex && currentOrder[0][1] === 'asc') {
+          dir = 'desc';
+        }
+        table.order([colIndex, dir]).draw();
+      });
+    });
+  </script>
+</body>
+</html>
