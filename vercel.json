@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/audio_table_dashboard.html" }
+  ]
+}
