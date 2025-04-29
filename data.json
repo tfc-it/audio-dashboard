@@ -16,12 +16,14 @@
     "entryReason": "B",
     "length": "00:32",
     "quality": "Ok"
-  }
-    "audio": "/audio/HJ on MSL Interview_Utopia 010174 [cassette 0045]-101612",
+  },
+  {
+    "audio": "/audio/HJ on MSL Interview_Utopia 010174 [cassette 0045]-101612.mp3",
     "sideA": "MSL Interview: Treasury sells gold to impact money supplies without effecting interest rates; Mocatta largest gold bullion dealer; press release shouldn't be published verbatim",
     "sideB": "HJ on Utopia: allegory for economic factors leading to inflation, market repercussions and effects on the forwards market",
     "date": "2001-01-01",
     "entryReason": "B",
     "length": "00:38",
     "quality": "Ok"
+  }
 ]
