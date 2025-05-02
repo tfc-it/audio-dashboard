@@ -25,5 +25,33 @@
     "entryReason": "B",
     "length": "00:38",
     "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ Interview on Silver 010179 [cassette 0367]-101712.mp3",
+    "sideA": "HJ Interview on Silver",
+    "sideB": "Blank",
+    "date": "1979-01-01",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/HJ and others talk on gold_NBC Consumer Challenge_Dictation on Arbitrage Trader [cassette 0130]-011175",
+    "sideA": "HJ & others talk on Gold - NBC Consumers Challenge",
+    "sideB": "HJ Dictation on Arbitrage Trader",
+    "date": "1975-01-11",
+    "entryReason": "B",
+    "length": "00:52",
+    "quality": "Good"
+  },
+   {
+    "audio": "/audio/HJ_MMW Phone Conversation Re Peter Graham [cassette 0565]-070182.mp3",
+    "sideA": "HJ/MMW Phone Conversation Re: Peter Graham",
+    "sideB": "Blank",
+    "date": "1982-07-01",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Good"
   }
+  
 ]
