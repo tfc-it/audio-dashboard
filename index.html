@@ -10,41 +10,12 @@
     body { font-family: Arial, sans-serif; padding: 20px; }
     #sort-buttons button { margin: 5px; }
     table.dataTable tbody tr { vertical-align: middle; }
-    fieldset.legend { border: 1px solid #ccc; padding: 10px; margin: 20px 0; }
-    fieldset.legend legend { font-weight: bold; }
-    /* Two-column legend layout */
-    fieldset.legend ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px 20px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    fieldset.legend ul li { margin-bottom: 5px; }
   </style>
 </head>
 <body>
   <h1>HJ Cassettes Log</h1>
-  <fieldset class="legend">
-    <legend>Entry Reason Key</legend>
-    <ul>
-      <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
-      <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
-      <li><strong>GOE</strong>: Gard. of Eden (0)</li>
-      <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
-      <li><strong>D</strong>: Documentary (0)</li>
-      <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
-      <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
-      <li><strong>M</strong>: Medical (0)</li>
-      <li><strong>F</strong>: Family (10) – Length: 4:28</li>
-      <li><strong>U</strong>: Unknown (0)</li>
-      <li><strong>G</strong>: GI (1) – Missing</li>
-      <li><strong>V</strong>: BVI/GI (0)</li>
-    </ul>
-  </fieldset>
-
   <div id="sort-buttons">
+   <!-- <button data-col="0">Sort by Audio</button>-->
     <button data-col="1">Sort by Side A</button>
     <button data-col="2">Sort by Side B</button>
     <button data-col="3">Sort by Date</button>
@@ -71,24 +42,20 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- DataTables JS -->
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <!-- Moment.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <!-- DataTables datetime-moment plugin -->
-  <script src="https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js"></script>
-
   <script>
     $(document).ready(function() {
-      // Register MM/DD/YY date format for DataTables
-      $.fn.dataTable.moment('MM/DD/YY');
-
       var table = $('#audioTable').DataTable({
         ajax: {
           url: 'data.json?ts=' + Date.now(),
           dataSrc: ''
         },
         columns: [
-          { data: 'audio', render: function(path) {
-              return '<audio controls src="' + path + '"></audio>'; } },
+          {
+            data: 'audio',
+            render: function(path) {
+              return '<audio controls src="' + path + '"></audio>';
+            }
+          },
           { data: 'sideA' },
           { data: 'sideB' },
           { data: 'date' },
@@ -107,9 +74,9 @@
         table.order([col, dir]).draw();
       });
 
-      // Debug: log AJAX load and errors
+      // Debug: log AJAX response or errors
       table.on('xhr', function(e, settings, json) {
-        console.log('Data loaded:', json);
+        console.log('DataTables AJAX load:', json);
       }).on('error.dt', function(e, settings, techNote, message) {
         console.error('DataTables error:', message);
       });
