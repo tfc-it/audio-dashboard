@@ -54,8 +54,8 @@
     "quality": "Good"
   },
   {
-    "audio": "/audio/NYNEX 777 Radio Film [cassette].mp3",
-    "sideA": "NYNEX 777 Radio Film/Food …",
+    "audio": "/audio/NYNEX 777 Radio \"Film/Food\" …",
+    "sideA": "NYNEX 777 Radio \"Film/Food\" …",
     "sideB": "Blank",
     "date": "05/11/94",
     "entryReason": "B",
@@ -169,5 +169,41 @@
     "entryReason": "B",
     "length": "00:24",
     "quality": "Poor"
+  },
+  {
+    "audio": "/audio/EHN_Raphael Phone Conv re Numbers 011080 [cassette 0375]-101712.mp3",
+    "sideA": "EHN/Raphael Phone Conversation: EHN speaks with Raphael in place of HJ; Raphael has looked at numbers and they can proceed; HJ dictates document regarding delivery of silver; HJ tells Larrea that he looks forward to working with him",
+    "sideB": "Blank",
+    "date": "01/10/80",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ Dictation on Randomness of Markets [cassette 0265].mp3",
+    "sideA": "HJ Dictation on Randomness of Markets - cont'd",
+    "sideB": "Blank",
+    "date": "01/01/77",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/Mocatta Past Present Future contd 010177 [cassette 0255]-101612.mp3",
+    "sideA": "HJ talk at ? Re: MMC - Past, Present & Future - cont'd",
+    "sideB": "Blank",
+    "date": "01/01/77",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ_Unk Phone Conv on Property Delay_undated [cassette]-101212.mp3",
+    "sideA": "HJ/? Phone Conver. on Property Delay",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:27",
+    "quality": "Good"
   }
 ]
