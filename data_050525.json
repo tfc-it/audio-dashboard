@@ -1,0 +1,57 @@
+[
+  {
+    "audio": "/audio/Charles Darwin-Live and In Concert-Richard Milner [cassette].mp3",
+    "sideA": "Charles Darwin: Live in concert: Richard Milner",
+    "sideB": "Blank",
+    "date": "01/01/00",
+    "entryReason": "A",
+    "length": "00:14",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/HJ Discussion on Commodities [cassette 0005].mp3",
+    "sideA": "HJ Discussion on Commodities",
+    "sideB": "HJ Discussion on Commodities - cont'd",
+    "date": "03/12/71",
+    "entryReason": "B",
+    "length": "00:32",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ on MSL Interview_Utopia 010174 [cassette 0045]-101612.mp3",
+    "sideA": "MSL Interview: Treasury sells gold to impact money supplies without effecting interest rates; Mocatta largest gold bullion dealer; press release shouldn't be published verbatim",
+    "sideB": "HJ on Utopia: allegory for economic factors leading to inflation, market repercussions and effects on the forwards market",
+    "date": "01/01/01",
+    "entryReason": "B",
+    "length": "00:38",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ Interview on Silver 010179 [cassette 0367]-101712.mp3",
+    "sideA": "HJ Interview on Silver",
+    "sideB": "Blank",
+    "date": "01/01/79",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/HJ and others talk on gold_NBC Consumer Challenge_Dictation on Arbitrage Trader [cassette 0130]-011175.mp3",
+    "sideA": "HJ & others talk on Gold - NBC Consumers Challenge",
+    "sideB": "HJ Dictation on Arbitrage Trader",
+    "date": "01/11/75",
+    "entryReason": "B",
+    "length": "00:52",
+    "quality": "Good"
+  },
+   {
+    "audio": "/audio/HJ_MMW Phone Conversation Re Peter Graham [cassette 0565]-070182.mp3",
+    "sideA": "HJ/MMW Phone Conversation Re: Peter Graham",
+    "sideB": "Blank",
+    "date": "07/01/82",
+    "entryReason": "B",
+    "length": "00:24",
+    "quality": "Good"
+  }
+  
+]
