@@ -15,6 +15,7 @@
 <body>
   <h1>HJ Cassettes Log</h1>
   <div id="sort-buttons">
+   <!-- <button data-col="0">Sort by Audio</button>-->
     <button data-col="1">Sort by Side A</button>
     <button data-col="2">Sort by Side B</button>
     <button data-col="3">Sort by Date</button>
@@ -41,24 +42,20 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- DataTables JS -->
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <!-- Moment.js for date parsing -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <!-- DataTables datetime-moment plugin -->
-  <script src="https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js"></script>
-
   <script>
     $(document).ready(function() {
-      // Register the MM/DD/YY format for sorting BEFORE initializing DataTable
-      $.fn.dataTable.moment('MM/DD/YY');
-
       var table = $('#audioTable').DataTable({
         ajax: {
           url: 'data.json?ts=' + Date.now(),
           dataSrc: ''
         },
         columns: [
-          { data: 'audio', render: function(path) {
-              return '<audio controls src="' + path + '"></audio>'; } },
+          {
+            data: 'audio',
+            render: function(path) {
+              return '<audio controls src="' + path + '"></audio>';
+            }
+          },
           { data: 'sideA' },
           { data: 'sideB' },
           { data: 'date' },
@@ -75,6 +72,13 @@
         var current = table.order()[0] || [];
         var dir = (current[0] === col && current[1] === 'asc') ? 'desc' : 'asc';
         table.order([col, dir]).draw();
+      });
+
+      // Debug: log AJAX response or errors
+      table.on('xhr', function(e, settings, json) {
+        console.log('DataTables AJAX load:', json);
+      }).on('error.dt', function(e, settings, techNote, message) {
+        console.error('DataTables error:', message);
       });
     });
   </script>
