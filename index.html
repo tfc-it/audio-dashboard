@@ -40,16 +40,16 @@
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   <!-- Moment.js for date parsing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <!-- DataTables datetime-moment plugin -->
   <script src="https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js"></script>
-  <!-- DataTables JS -->
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
   <script>
     $(document).ready(function() {
-      // Register date format for sorting (MM/DD/YY)
+      // Register MM/DD/YY format for sorting BEFORE table init
       $.fn.dataTable.moment('MM/DD/YY');
 
       var table = $('#audioTable').DataTable({
@@ -78,12 +78,9 @@
         table.order([col, dir]).draw();
       });
 
-      // Debug: log loaded data or errors
-      table.on('xhr', function(e, settings, json) {
-        console.log('DataTables loaded:', json);
-      }).on('error.dt', function(e, settings, techNote, message) {
-        console.error('DataTables error:', message);
-      });
+      // Debug
+      table.on('xhr', function(e, settings, json) { console.log('Loaded:', json); })
+           .on('error.dt', function(e, settings, techNote, message) { console.error('Error:', message); });
     });
   </script>
 </body>
