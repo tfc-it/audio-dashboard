@@ -39,16 +39,16 @@
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   <!-- Moment.js for date parsing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <!-- DataTables datetime-moment plugin -->
   <script src="https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js"></script>
-  <!-- DataTables JS -->
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
   <script>
     $(document).ready(function() {
-      // Register the MM/DD/YY format for the date column
+      // Register the MM/DD/YY format for sorting BEFORE initializing DataTable
       $.fn.dataTable.moment('MM/DD/YY');
 
       var table = $('#audioTable').DataTable({
@@ -61,7 +61,7 @@
               return '<audio controls src="' + path + '"></audio>'; } },
           { data: 'sideA' },
           { data: 'sideB' },
-          { data: 'date', type: 'date' },
+          { data: 'date' },
           { data: 'entryReason' },
           { data: 'length' },
           { data: 'quality' }
@@ -69,6 +69,7 @@
         order: []
       });
 
+      // Sort button handlers
       $('#sort-buttons button').on('click', function() {
         var col = $(this).data('col');
         var current = table.order()[0] || [];
