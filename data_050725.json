@@ -1,84 +1,30 @@
 [
   {
+    "audio": "/audio/",
+    "sideA": "Lavity Stoutt Ltr and Conversation (damaged)",
+    "sideB": "Blank",
+    "date": "1990-08-21",
+    "entryReason": "A",
+    "length": "00:23:16",
+    "quality": "Poor/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Ursula Koecher to HJ/GJ (German)",
+    "sideB": "Ursula Koecher to HJ/GJ (German)",
+    "date": "1991-12-01",
+    "entryReason": "A",
+    "length": "01:03:00",
+    "quality": "Ok"
+  },
+  {
     "audio": "/audio/Charles Darwin-Live and In Concert-Richard Milner [cassette].mp3",
     "sideA": "Charles Darwin: Live in concert: Richard Milner",
     "sideB": "Blank",
     "date": "2000-01-01",
     "entryReason": "A",
-    "length": "00:14",
+    "length": "00:14:17",
     "quality": "Good"
-  },
-  {
-    "audio": "/audio/HJ Discussion on Commodities [cassette 0005].mp3",
-    "sideA": "HJ Discussion on Commodities",
-    "sideB": "HJ Discussion on Commodities - cont'd",
-    "date": "1971-03-12",
-    "entryReason": "B",
-    "length": "00:32",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/HJ on MSL Interview_Utopia 010174 [cassette 0045]-101612.mp3",
-    "sideA": "MSL Interview: Treasury sells gold to impact money supplies without effecting interest rates; Mocatta largest gold bullion dealer; press release shouldn't be published verbatim",
-    "sideB": "HJ on Utopia: allegory for economic factors leading to inflation, market repercussions and effects on the forwards market",
-    "date": "2001-01-01",
-    "entryReason": "B",
-    "length": "00:38",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/HJ Interview on Silver 010179 [cassette 0367]-101712.mp3",
-    "sideA": "HJ Interview on Silver",
-    "sideB": "Blank",
-    "date": "1979-01-01",
-    "entryReason": "B",
-    "length": "00:24",
-    "quality": "Good"
-  },
-  {
-    "audio": "/audio/HJ and others talk on gold_NBC Consumer Challenge_Dictation on Arbitrage Trader [cassette 0130]-011175.mp3",
-    "sideA": "HJ & others talk on Gold - NBC Consumers Challenge",
-    "sideB": "HJ Dictation on Arbitrage Trader",
-    "date": "1975-01-11",
-    "entryReason": "B",
-    "length": "00:52",
-    "quality": "Good"
-  },
-  {
-    "audio": "/audio/HJ_MMW Phone Conversation Re Peter Graham [cassette 0565]-070182.mp3",
-    "sideA": "HJ/MMW Phone Conversation Re: Peter Graham",
-    "sideB": "Blank",
-    "date": "1982-07-01",
-    "entryReason": "B",
-    "length": "00:24",
-    "quality": "Good"
-  },
-  {
-    "audio": "/audio/NYNEX 777 Radio Film [cassette].mp3",
-    "sideA": "NYNEX 777 Radio Film/Food …",
-    "sideB": "Blank",
-    "date": "1994-05-11",
-    "entryReason": "B",
-    "length": "00:01",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/Baby Jane Dexter_Joe the Bomber_2001 [cassette]-100212.mp3",
-    "sideA": "Baby Jane Dexter Joe The Bomber",
-    "sideB": "Blank",
-    "date": "2001-01-01",
-    "entryReason": "E",
-    "length": "00:03",
-    "quality": "Good"
-  },
-  {
-    "audio": "/audio/Melvin Van Peebles_No Justice No Peace_1992 [cassette]-100412.mp3",
-    "sideA": "No Justice, No Peace - Melvin Van Peebles",
-    "sideB": "No Justice, No Peace - Melvin Van Peebles",
-    "date": "1992-01-01",
-    "entryReason": "E",
-    "length": "00:04",
-    "quality": "Ok"
   },
   {
     "audio": "/audio/Gould Tribute CALTECH-Richard Milner [cassette].mp3",
@@ -86,7 +32,7 @@
     "sideB": "Blank",
     "date": "2000-09-01",
     "entryReason": "A",
-    "length": "00:07",
+    "length": "00:07:00",
     "quality": "Ok"
   },
   {
@@ -95,25 +41,133 @@
     "sideB": "Blank",
     "date": "Undated",
     "entryReason": "A",
-    "length": "00:07",
+    "length": "00:07:04",
     "quality": "Ok"
   },
   {
-    "audio": "/audio/HJ_Cutler Phone Conv on Offer_undated [cassette]-101212.mp3",
-    "sideA": "HJ/Cutler Phone Conver. on Offer",
+    "audio": "/audio/",
+    "sideA": "Foxy's",
+    "sideB": "Foxy's",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "00:37:18",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Foxy's (Music)",
     "sideB": "Blank",
     "date": "Undated",
-    "entryReason": "B",
-    "length": "00:07",
+    "entryReason": "A",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lupin III, Watermelon Man (Music)",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "00:07:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MVP/HJ Discussing Bessie Smith Play (1)",
+    "sideB": "MVP/HJ Discussing Bessie Smith Play (2)",
+    "date": "2074-05-21",
+    "entryReason": "A",
+    "length": "01:33:00",
     "quality": "Ok"
   },
   {
-    "audio": "/audio/HJ_PG 031282 [cassette 0495]-101712.mp3",
-    "sideA": "HJ/Peter Graham Telephone Conversation Re: Audit",
+    "audio": "/audio/",
+    "sideA": "MVP/HJ Discussing Bessie Smith Play (5)",
+    "sideB": "MVP/HJ Discussing Bessie Smith Play (6)",
+    "date": "2074-05-23",
+    "entryReason": "A",
+    "length": "01:27:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MVP/HJ Re: MVP [Bessie Smith] Play (3)",
+    "sideB": "MVP/HJ Re: MVP  [Bessie Smith] Play (4)",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "02:00:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Steve Sunderland / German Conversation / Music",
     "sideB": "Blank",
-    "date": "1982-03-12",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "00:39:04",
+    "quality": "Bad/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Dayna Steele Show 97.1 Talk",
+    "sideB": "The Dayna Steele Show 97.1 Talk",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "01:42:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Education of a Speculator",
+    "sideB": "The Education of a Speculator",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "03:04:11",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Ursula Koecher (German)",
+    "sideB": "Ursula Koecher-cont'd (German)",
+    "date": "Undated",
+    "entryReason": "A",
+    "length": "00:52:28",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Presentation on Trading ",
+    "sideB": "HJ Presentation on Trading - cont'd",
+    "date": "1971-01-01",
     "entryReason": "B",
-    "length": "00:08",
+    "length": "00:20:01",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/HJ Discussion on Commodities [cassette 0005].mp3",
+    "sideA": "HJ Discussion on Commodities",
+    "sideB": "HJ Discussion on Commodities - cont'd",
+    "date": "1971-03-12",
+    "entryReason": "B",
+    "length": "00:32:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "David Snow Dictation from Marketing Dept.",
+    "sideB": "David Snow Dictation from Marketing Dept. - cont'd",
+    "date": "1972-01-01",
+    "entryReason": "B",
+    "length": "00:57:19",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ AMM talk ",
+    "sideB": "HJ AMM talk ",
+    "date": "1972-11-29",
+    "entryReason": "B",
+    "length": "01:16:00",
     "quality": "Ok"
   },
   {
@@ -122,44 +176,197 @@
     "sideB": "Blank",
     "date": "1972-11-29",
     "entryReason": "B",
-    "length": "00:09",
+    "length": "00:09:27",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MSL Interview: Treasury sells gold to impact money supplies without effecting interest rates; Mocatta largest gold bullion dealer; press release shouldn't be published verbatim ",
+    "sideB": "HJ on Utopia: allegory for economic factors leading to inflation, market repercussions and effects on the forwards market   ",
+    "date": "1974-01-01",
+    "entryReason": "B",
+    "length": "00:38:17",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation - Ltr to Chan?, Tully Notes, etc.",
+    "sideB": "HJ Dictation on Gold Bidding",
+    "date": "1974-01-04",
+    "entryReason": "B",
+    "length": "00:57:05",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Meeting Re: Credit",
+    "sideB": "HJ Meeting Re: Credit ",
+    "date": "1974-03-20",
+    "entryReason": "B",
+    "length": "00:57:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Meeting Re: Credit - cont'd",
+    "sideB": "HJ Meeting Re: Credit ",
+    "date": "1974-03-21",
+    "entryReason": "B",
+    "length": "01:28:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Meeting Re: Credit (diff. from 0050)",
+    "sideB": "HJ Meeting Re: Credit - cont'd (blank in begin.)",
+    "date": "1974-03-25",
+    "entryReason": "B",
+    "length": "01:00:00",
     "quality": "Ok"
   },
   {
-    "audio": "/audio/HJ-Aaron Russo Conv. Re Coins-092383 [cassette].mp3",
-    "sideA": "HJ/Aaron Russo Phone Conversation Re: Coins",
-    "sideB": "Blank",
-    "date": "1983-09-23",
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg (Part I) (1) (poor quality)",
+    "sideB": "MMC/Y.C.S. Mtg (Part II) (1) (poor quality)",
+    "date": "1974-05-20",
     "entryReason": "B",
-    "length": "00:11",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/HJ_PG 092082 [cassette 0655]-101912.mp3",
-    "sideA": "HJ/Peter Graham Phone Conversation Re: Points (echo)",
-    "sideB": "Blank",
-    "date": "1982-09-20",
-    "entryReason": "B",
-    "length": "00:17",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/HJ_Peter Graham re The Feds 010182 [cassette 0475]-101712.mp3",
-    "sideA": "HJ/Peter Graham Phone Conversation Re: the Feds",
-    "sideB": "Blank",
-    "date": "1982-01-01",
-    "entryReason": "B",
-    "length": "00:18",
-    "quality": "Ok"
-  },
-  {
-    "audio": "/audio/HJNYerInt [cassette 0140].mp3",
-    "sideA": "HJ New Yorker Interview",
-    "sideB": "Blank",
-    "date": "1975-11-21",
-    "entryReason": "B",
-    "length": "00:20",
+    "length": "01:01:12",
     "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg (Part I) (2)  (background noise)",
+    "sideB": "MMC/Y.C.S. Mtg (Part I) (2) (background noise)",
+    "date": "1974-05-20",
+    "entryReason": "B",
+    "length": "01:01:17",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg (Part I)  (3) (poor quality)",
+    "sideB": "MMC/Y.C.S. Mtg (Part II) (3) (poor quality)",
+    "date": "1974-05-21",
+    "entryReason": "B",
+    "length": "00:59:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg AM (Part I) (4) (muffled)",
+    "sideB": "Blank",
+    "date": "1974-05-21",
+    "entryReason": "B",
+    "length": "00:44:19",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg PM (Part I) (6) (poor quality)",
+    "sideB": "MMC/Y.C.S. Mtg (Part II) (6) (poor quality)",
+    "date": "1974-05-21",
+    "entryReason": "B",
+    "length": "01:37:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC/Y.C.S. Mtg PM (Part I) (5) (poor quality)",
+    "sideB": "MMC/Y.C.S. Mtg PM (Part II) (5) (poor quality)",
+    "date": "1974-05-23",
+    "entryReason": "B",
+    "length": "00:48:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC NDO Meeting",
+    "sideB": "MMC NDO Meeting - cont'd",
+    "date": "1974-10-24",
+    "entryReason": "B",
+    "length": "01:32:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC - Drexel talk by HJ & ?",
+    "sideB": "MMC - Drexel talk by HJ & ? - cont'd",
+    "date": "1974-12-01",
+    "entryReason": "B",
+    "length": "01:11:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at Center of Applied Economics on Commod. Auctions & Gold Fixing",
+    "sideB": "Norton of Sotheby's talk at Center of Applied Economics\u2026",
+    "date": "1975-01-01",
+    "entryReason": "B",
+    "length": "00:45:23",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Investment Insights-Gold and the Year Ahead (HJ, etc.)",
+    "sideB": "Investment Insights-Gold\u2026cont'd",
+    "date": "1975-01-01",
+    "entryReason": "B",
+    "length": "00:55:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "TAR/Jon ?/HJ Telephone Discussion Re:Comex",
+    "sideB": "TAR/Jon ?/HJ Telephone Discussion Re:Comex ",
+    "date": "1975-01-01",
+    "entryReason": "B",
+    "length": "01:03:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Great Gold Debate - \"Should the U.S. Go Back\u2026",
+    "sideB": "The Great Gold Debate - \"Should the U.S. Go Back\u2026- cont'd",
+    "date": "1975-01-01",
+    "entryReason": "B",
+    "length": "01:27:29",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Great Gold Debate - \"Should the U.S. Go Back\u2026-cont'd",
+    "sideB": "The Great Gold Debate - \"Should the U.S. Go Back\u2026- cont'd",
+    "date": "1975-01-01",
+    "entryReason": "B",
+    "length": "01:27:27",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ & Peter White talk at ABA Seminar on Gold",
+    "sideB": "HJ & Peter White talk at ABA Seminar on Gold ",
+    "date": "1975-01-10",
+    "entryReason": "B",
+    "length": "00:52:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/HJ and others talk on gold_NBC Consumer Challenge_Dictation on Arbitrage Trader [cassette 0130]-011175.mp3",
+    "sideA": "HJ & others talk on Gold - NBC Consumers Challenge",
+    "sideB": "HJ Dictation on Arbitrage Trader",
+    "date": "1975-01-11",
+    "entryReason": "B",
+    "length": "00:52:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk on Gold at Mutual Funds Conference",
+    "sideB": "HJ talk at Mutual Funds Conference - cont'd",
+    "date": "1975-03-28",
+    "entryReason": "B",
+    "length": "00:40:18",
+    "quality": "Ok/ Poor"
   },
   {
     "audio": "/audio/Japanese Speech 040175 [cassette 0155]-101612.mp3",
@@ -167,16 +374,52 @@
     "sideB": "Blank",
     "date": "1975-04-01",
     "entryReason": "B",
-    "length": "00:24",
+    "length": "00:24:00",
     "quality": "Poor"
   },
   {
-    "audio": "/audio/EHN_Raphael Phone Conv re Numbers 011080 [cassette 0375]-101712.mp3",
-    "sideA": "EHN/Raphael Phone Conversation: EHN speaks with Raphael in place of HJ; Raphael has looked at numbers and they can proceed; HJ dictates document regarding delivery of silver; HJ tells Larrea that he looks forward to working with him",
+    "audio": "/audio/HJNYerInt [cassette 0140].mp3",
+    "sideA": "HJ New Yorker Interview",
     "sideB": "Blank",
-    "date": "1980-01-10",
+    "date": "1975-11-21",
     "entryReason": "B",
-    "length": "00:24",
+    "length": "00:20:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation Training Manual, Contracts History",
+    "sideB": "Blank",
+    "date": "1975-12-30",
+    "entryReason": "B",
+    "length": "00:25:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Spanish Speaker Re: Gold Business with MMC",
+    "sideB": "HJ/MMC Meeting Re: Price of Silver (w/ Spanish speaker)",
+    "date": "1976-01-01",
+    "entryReason": "B",
+    "length": "00:57:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ & Ho Chi Discussion Re: Yeung Tapes (low sound)",
+    "sideB": "Blank",
+    "date": "1976-02-17",
+    "entryReason": "B",
+    "length": "00:22:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation on Randomness of Markets",
+    "sideB": "HJ Dictation on Randomness of Markets",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "01:03:00",
     "quality": "Ok"
   },
   {
@@ -185,8 +428,17 @@
     "sideB": "Blank",
     "date": "1977-01-01",
     "entryReason": "B",
-    "length": "00:24",
+    "length": "00:24:09",
     "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at ? Re: MMC - Past, Present & Future",
+    "sideB": "HJ talk at ? Re: MMC - Past, Present & Future ",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "01:02:15",
+    "quality": "Good/ Ok"
   },
   {
     "audio": "/audio/Mocatta Past Present Future contd 010177 [cassette 0255]-101612.mp3",
@@ -194,8 +446,971 @@
     "sideB": "Blank",
     "date": "1977-01-01",
     "entryReason": "B",
-    "length": "00:24",
+    "length": "00:24:16",
     "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at Commodities Press Conference Re: Options",
+    "sideB": "HJ talk at Commodities Press Conference ",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "01:02:18",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk on Gold and Silver: Commodities Magazine",
+    "sideB": "MMW? talk on Gold and Silver: Commodities Magazine - cont'd",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "01:04:17",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk on Gold and Silver: Commodities Magazine - cont'd (background noise)",
+    "sideB": "HJ talk on Gold and Silver: Commodities Magazine - cont'd",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "00:52:28",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMC Meeting Re: Cotton (this side good)",
+    "sideB": "HJ/MMC Meeting Re: Cotton - cont'd (inaudible)",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "01:03:01",
+    "quality": "Good/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ-CFTC Option Hearings",
+    "sideB": "HJ-CFTC Option Hearings - cont'd",
+    "date": "1977-01-01",
+    "entryReason": "B",
+    "length": "00:51:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at Chairman's Colloquium Re: Options",
+    "sideB": "HJ talk at Chairman's Colloquium Re: Options ",
+    "date": "1977-01-06",
+    "entryReason": "B",
+    "length": "01:02:21",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at Chairman's Colloquium Re: Options - cont'd",
+    "sideB": "HJ talk at Chairman's Colloquium Re: Options ",
+    "date": "1977-01-06",
+    "entryReason": "B",
+    "length": "00:58:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at Chairman's Colloquium Re: Options - cont'd",
+    "sideB": "Blank",
+    "date": "1977-01-06",
+    "entryReason": "B",
+    "length": "00:28:08",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Discussion Re: Tax Factors Commodity Trading",
+    "sideB": "HJ Discussion Re: Tax Factors Commodity Trading ",
+    "date": "1977-02-03",
+    "entryReason": "B",
+    "length": "01:02:09",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Discussion Re: Tax Factors Commodity Trading - cont'd",
+    "sideB": "Blank",
+    "date": "1977-02-03",
+    "entryReason": "B",
+    "length": "00:16:20",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMC Meeting at FL Office",
+    "sideB": "Blank",
+    "date": "1977-02-03",
+    "entryReason": "B",
+    "length": "00:46:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "? & HJ Silver User's Talk",
+    "sideB": "? & HJ Silver User's Talk - cont'd",
+    "date": "1978-01-01",
+    "entryReason": "B",
+    "length": "00:40:03",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at family dinner Re: MMC bankruptcy speculation",
+    "sideB": "HJ talk at family dinner Re: MMC bankruptcy spec.",
+    "date": "1978-01-01",
+    "entryReason": "B",
+    "length": "01:01:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk at family dinner Re: MMC bankruptcy speculation - cont'd",
+    "sideB": "Blank",
+    "date": "1978-01-01",
+    "entryReason": "B",
+    "length": "00:12:17",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Jon?/TAR/HJ Telephone Discussion Re: Comex Rules",
+    "sideB": "Blank",
+    "date": "1978-06-16",
+    "entryReason": "B",
+    "length": "00:24:28",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Commodity Options Workshop - Rye Town - Hilton - cont'd",
+    "sideB": "Commodity Options Workshop - Rye Town - Hilton",
+    "date": "1978-08-18",
+    "entryReason": "B",
+    "length": "01:13:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Commodity Options Workshop - Rye Town - Hilton - cont'd",
+    "sideB": "Commodity Options Workshop - Rye Town - Hilton",
+    "date": "1978-08-18",
+    "entryReason": "B",
+    "length": "01:18:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Commodity Options Workshop - Rye Town - Hilton - cont'd",
+    "sideB": "Commodity Options Workshop - Rye Town - Hilton",
+    "date": "1978-08-18",
+    "entryReason": "B",
+    "length": "01:25:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Commodity Options Workshop - Rye Town - Hilton - cont'd (Side A transcribed, not converted)",
+    "sideB": "Commodity Options Workshop - Rye Town - Hilton",
+    "date": "1978-08-18",
+    "entryReason": "B",
+    "length": "01:12:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Commodity Options Workshop - HJ intro.-Dr. Pick's Speech: Techniques of Monetary Expropriation",
+    "sideB": "Dr. Pick's Speech - cont'd (not clear)",
+    "date": "1978-08-19",
+    "entryReason": "B",
+    "length": "01:04:12",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/HJ Interview on Silver 010179 [cassette 0367]-101712.mp3",
+    "sideA": "HJ Interview on Silver",
+    "sideB": "Blank",
+    "date": "1979-01-01",
+    "entryReason": "B",
+    "length": "00:24:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "IT/MIP (Bad Condition)",
+    "sideB": "Blank",
+    "date": "1979-11-01",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/EHN_Raphael Phone Conv re Numbers 011080 [cassette 0375]-101712.mp3",
+    "sideA": "EHN/Raphael Phone Conversation: EHN speaks with Raphael in place of HJ; Raphael has looked at numbers and they can proceed; HJ dictates document regarding delivery of silver; HJ tells Larrea that he looks forward to working with him",
+    "sideB": "Blank",
+    "date": "1980-01-10",
+    "entryReason": "B",
+    "length": "00:24:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Testimony of William Herbert Hunt (speeds up)",
+    "sideB": "Testimony of William Herbert Hunt - cont'd",
+    "date": "1980-06-30",
+    "entryReason": "B",
+    "length": "00:16:06",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "William Hunt \"We Will Sue\" (background noise)",
+    "sideB": "Blank",
+    "date": "1980-08-21",
+    "entryReason": "B",
+    "length": "00:17:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Talk at Futures Market Conference in Johannesburg",
+    "sideB": "HJ talk at Futures Market Conference in Johannesburg - cont'd",
+    "date": "1981-01-01",
+    "entryReason": "B",
+    "length": "01:31:03",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMC Meeting",
+    "sideB": "HJ/MMC Meeting - cont'd",
+    "date": "1981-01-01",
+    "entryReason": "B",
+    "length": "00:59:01",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/HJ_Peter Graham re The Feds 010182 [cassette 0475]-101712.mp3",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: the Feds",
+    "sideB": "Blank",
+    "date": "1982-01-01",
+    "entryReason": "B",
+    "length": "00:18:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham/Michael Alexander/TAR/Fred Adler/John Cluchet, Jules Patterman",
+    "sideB": "HJ/Peter Graham/Michael Alexander/TAR/Fred Adler/John Cluchet, Jules Patterman",
+    "date": "1982-01-01",
+    "entryReason": "B",
+    "length": "00:47:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation (begin. not clear)",
+    "sideB": "Blank",
+    "date": "1982-03-11",
+    "entryReason": "B",
+    "length": "00:28:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Transactions",
+    "sideB": "Blank",
+    "date": "1982-03-11",
+    "entryReason": "B",
+    "length": "00:43:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ_PG 031282 [cassette 0495]-101712.mp3",
+    "sideA": "HJ/Peter Graham Telephone Conversation Re: Audit",
+    "sideB": "Blank",
+    "date": "1982-03-12",
+    "entryReason": "B",
+    "length": "00:08:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: Peter Graham Ltr",
+    "sideB": "Blank",
+    "date": "1982-03-24",
+    "entryReason": "B",
+    "length": "00:20:18",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation on Asset Management & Peter Graham",
+    "sideB": "Blank",
+    "date": "1982-03-26",
+    "entryReason": "B",
+    "length": "00:40:28",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation on Transactions & Peter Graham",
+    "sideB": "Blank",
+    "date": "1982-03-26",
+    "entryReason": "B",
+    "length": "00:08:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: Book View",
+    "sideB": "HJ/MMW Phone Conversation Re: Book View - cont'd",
+    "date": "1982-04-13",
+    "entryReason": "B",
+    "length": "01:26:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Philip Robinson Mtg",
+    "sideB": "Blank",
+    "date": "1982-05-05",
+    "entryReason": "B",
+    "length": "00:39:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: Deal",
+    "sideB": "?/Philip/HJ Phone Conversation Re: Proposals (echo)",
+    "date": "1982-05-26",
+    "entryReason": "B",
+    "length": "01:22:10",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/JRW Phone Conversation Re: Bonus'; HJ/MMW Phone Conv. Re: PG Ltr",
+    "sideB": "Blank",
+    "date": "1982-06-02",
+    "entryReason": "B",
+    "length": "00:49:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Deal Application",
+    "sideB": "Blank",
+    "date": "1982-06-03",
+    "entryReason": "B",
+    "length": "00:33:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Secretary Haig Resigns - Office Conversation ",
+    "sideB": "Blank",
+    "date": "1982-06-25",
+    "entryReason": "B",
+    "length": "00:30:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/EHN/Ibara Conversation Re: Reaching Agreement (some static)",
+    "sideB": "HJ/EHN/Ibara Conversation - cont'd (some static)",
+    "date": "1982-06-26",
+    "entryReason": "B",
+    "length": "01:25:15",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/EHN/Ibara Conversation - cont'd",
+    "sideB": "HJ/EHN/Ibara Conversation - cont'd",
+    "date": "1982-06-29",
+    "entryReason": "B",
+    "length": "01:33:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/EHN/Ibara Conversation - cont'd (some static)",
+    "sideB": "HJ/EHN/Ibara Conversation - cont'd (some static)",
+    "date": "1982-06-29",
+    "entryReason": "B",
+    "length": "01:29:22",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/HJ_MMW Phone Conversation Re Peter Graham [cassette 0565]-070182.mp3",
+    "sideA": "HJ/MMW Phone Conversation Re: Peter Graham",
+    "sideB": "Blank",
+    "date": "1982-07-01",
+    "entryReason": "B",
+    "length": "00:24:12",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Agreement Drafting",
+    "sideB": "Blank",
+    "date": "1982-07-02",
+    "entryReason": "B",
+    "length": "00:30:01",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ, Graham, Orsich, Selby: limiting non-future competition with business associates;  5% turn over at Mocatta; refusing to take on new issues before resolving old issues",
+    "sideB": "HJ/Peter Graham Conversation cont'd",
+    "date": "1982-07-13",
+    "entryReason": "B",
+    "length": "01:10:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lecture on Lookback Options (slow)",
+    "sideB": "Lecture on Lookback Options - cont'd (slow)",
+    "date": "1982-07-13",
+    "entryReason": "B",
+    "length": "01:25:05",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: Deal Accomplishment",
+    "sideB": "Blank",
+    "date": "1982-07-14",
+    "entryReason": "B",
+    "length": "00:29:02",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: 2 Solutions",
+    "sideB": "Blank",
+    "date": "1982-07-15",
+    "entryReason": "B",
+    "length": "00:40:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham/George Inglis/John ? Phone Conversation Re: Agmt Difficulties (tape warps)",
+    "sideB": "HJ/MMW Phone Conversation Re: Peter Graham Conversation ",
+    "date": "1982-07-16",
+    "entryReason": "B",
+    "length": "01:19:19",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Lunch - cont'd",
+    "sideB": "HJ/Peter Graham Lunch ",
+    "date": "1982-07-27",
+    "entryReason": "B",
+    "length": "01:33:08",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Lunch - cont'd",
+    "sideB": "HJ/Peter Graham Lunch",
+    "date": "1982-07-27",
+    "entryReason": "B",
+    "length": "01:00:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Lunch - cont'd",
+    "sideB": "Blank",
+    "date": "1982-07-27",
+    "entryReason": "B",
+    "length": "00:45:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Lunch (low audio)",
+    "sideB": "HJ/Peter Graham Lunch",
+    "date": "1982-07-27",
+    "entryReason": "B",
+    "length": "01:37:17",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham/? Meeting",
+    "sideB": "HJ/Peter Graham/? Meeting - cont'd",
+    "date": "1982-07-28",
+    "entryReason": "B",
+    "length": "01:34:29",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham/? Meeting - cont'd",
+    "sideB": "Blank",
+    "date": "1982-07-28",
+    "entryReason": "B",
+    "length": "00:29:29",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham/JFR Phone Conversation Re: Apology/Re-write; Bob Glick ",
+    "sideB": "HJ/Bob Glick Conversation - cont'd",
+    "date": "1982-08-01",
+    "entryReason": "B",
+    "length": "01:01:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: 46 Points",
+    "sideB": "HJ/Peter Graham Phone Conversation Re: 46 Points - cont'd",
+    "date": "1982-08-12",
+    "entryReason": "B",
+    "length": "00:58:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Written Statement ",
+    "sideB": "HJ/MMW? Phone Conversation Re: Message from Lawyers",
+    "date": "1982-09-15",
+    "entryReason": "B",
+    "length": "00:45:02",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Facts to Analyze",
+    "sideB": "HJ/Peter Graham Phone Conversation - cont'd",
+    "date": "1982-09-20",
+    "entryReason": "B",
+    "length": "00:52:12",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/HJ_PG 092082 [cassette 0655]-101912.mp3",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Points (echo)",
+    "sideB": "Blank",
+    "date": "1982-09-20",
+    "entryReason": "B",
+    "length": "00:17:19",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Dictation on Peter Graham Phone Conversation Re: Lord Barber Reaction: (starts after about 5 mins from beginning - later has an echo)",
+    "sideB": "Blank",
+    "date": "1982-09-22",
+    "entryReason": "B",
+    "length": "00:28:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: Topics for Peter Graham",
+    "sideB": "HJ/MMW Phone Conversation - cont'd",
+    "date": "1982-09-23",
+    "entryReason": "B",
+    "length": "00:49:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Peter Graham Phone Conversation Re: Equipment",
+    "sideB": "HJ/Peter Graham Conversation - cont'd",
+    "date": "1982-09-23",
+    "entryReason": "B",
+    "length": "01:22:04",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW/PG Phone Conversation Re: HJ notes summarizing points",
+    "sideB": "Blank",
+    "date": "1982-09-27",
+    "entryReason": "B",
+    "length": "00:40:15",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW: HJ theory about Tarrant going to Lord Barber with $100M; Barbara dismisses 10 page letter; Peter is a dispirited ally; Barber is not against the deal; HJ not backing down; Comex not the issue",
+    "sideB": "HJ/MMW Phone Conversation - cont'd",
+    "date": "1982-09-28",
+    "entryReason": "B",
+    "length": "00:22:22",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/PG",
+    "sideB": "HJ/PG",
+    "date": "1982-09-28",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "EHN was to call Peter Anderson; approval of contract language by Anderson; proposal to sell pieces from at 17.94 discount; Baird to deliver Giles a copy of Graham letter about Barber's views",
+    "sideB": "Blank",
+    "date": "1983-01-01",
+    "entryReason": "B",
+    "length": "00:46:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation Re: HJ letter & HJ London Trip",
+    "sideB": "HJ/? Phone Conversation Re: Equipment",
+    "date": "1983-03-30",
+    "entryReason": "B",
+    "length": "01:00:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC Marketing Conference",
+    "sideB": "MMC Marketing Conference-cont'd",
+    "date": "1983-05-23",
+    "entryReason": "B",
+    "length": "01:35:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC Marketing Conference-cont'd",
+    "sideB": "Blank",
+    "date": "1983-05-23",
+    "entryReason": "B",
+    "length": "00:42:16",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Blank",
+    "sideB": "MMC Marketing Conference-cont'd",
+    "date": "1983-05-24",
+    "entryReason": "B",
+    "length": "00:39:13",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC Marketing Conference-cont'd",
+    "sideB": "MMC Marketing Conference-cont'd",
+    "date": "1983-05-24",
+    "entryReason": "B",
+    "length": "01:27:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/HJ-Aaron Russo Conv. Re Coins-092383 [cassette].mp3",
+    "sideA": "HJ/Aaron Russo Phone Conversation Re: Coins",
+    "sideB": "Blank",
+    "date": "1983-09-23",
+    "entryReason": "B",
+    "length": "00:11:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Perrito (phone conversation)",
+    "sideB": "Perrito (phone conversation)",
+    "date": "1984-01-05",
+    "entryReason": "B",
+    "length": "01:08:26",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ, Moe, Marcus",
+    "sideB": "Macedo Talk (Damaged)",
+    "date": "1984-08-04",
+    "entryReason": "B",
+    "length": "01:04:24",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "ES/EHN, J.Manley-Discussion of Mocatta trade procedures \u2013 COMEX, London, etc.  Questions about actions of traders Anderson and Morris on London transactions.  EHN investigation of questionable/criminal employee trading practices.",
+    "sideB": "ES/EHN, J.Manley-Continuation of side A \u2013 further questioning of employee\u2019s misdoings.. EHN attempting to deal with issue.",
+    "date": "1984-08-08",
+    "entryReason": "B",
+    "length": "01:18:18",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "David Lam, HJ",
+    "sideB": "David Lam, HJ",
+    "date": "1984-08-10",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MMC talk - Kissinger in Washington Mayflower Hotel",
+    "sideB": "MMC talk - Kissinger in Washington Mayflower Hotel",
+    "date": "1984-09-24",
+    "entryReason": "B",
+    "length": "01:26:25",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/PAG-Phone conversation about Bank of England situation \u2013 JMPLC/JMB bad loans... Bank of Nova Scotia bailout.  HJ\u2019s/Mocatta\u2019s questions/issues about the situation.  Further possible deals to pay off JMB, account of meetings to work out deal.  Details of buyout by Morgan group, HJ\u2019s dissatisfactions",
+    "sideB": "HJ/PAG-Continuatiuon of side A \u2013 HJ/Mocatta\u2019s views on outcome of JMB buyout.  ",
+    "date": "1984-10-09",
+    "entryReason": "B",
+    "length": "00:57:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "F. Bakhtiar/HJ Phone Conversation-Bakhtiar fight w/ Mocatta/KSS",
+    "sideB": "Blank",
+    "date": "1985-06-07",
+    "entryReason": "B",
+    "length": "00:31:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/MMW Phone Conversation (begin. not clear)",
+    "sideB": "Blank",
+    "date": "1985-06-07",
+    "entryReason": "B",
+    "length": "00:38:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Richter",
+    "sideB": "Richter",
+    "date": "1985-09-16",
+    "entryReason": "B",
+    "length": "01:32:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/DMC Phone Conversation Re: Luxembourg (gets progressively quieter)",
+    "sideB": "Blank",
+    "date": "1985-11-15",
+    "entryReason": "B",
+    "length": "00:47:08",
+    "quality": "Ok/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/DMC Phone Conversation Re: Nicholas Deak/Luxembourg",
+    "sideB": "Blank",
+    "date": "1985-11-21",
+    "entryReason": "B",
+    "length": "00:23:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/Mersch/Hambro: if value of coin sales less than Canadian Maple Leaf coins, Mocatta would pay government a 1-time fee; coins initially struck outside of Luxembourg for first 2 years; breakeven at 750/yr",
+    "sideB": "HJ/Mersch Phone Conversation Re: Don",
+    "date": "1985-11-22",
+    "entryReason": "B",
+    "length": "00:48:00",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/JES/MMW Phone Conversation Re: Update",
+    "sideB": "Blank",
+    "date": "1986-09-12",
+    "entryReason": "B",
+    "length": "00:47:27",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Dr. Janos Fekete/HJ talk-IMF in Washington",
+    "sideB": "Dr. Janos Fekete/HJ talk - cont'd (first few minutes blank)",
+    "date": "1986-09-30",
+    "entryReason": "B",
+    "length": "00:54:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/ADO Phone Conversation (some static)",
+    "sideB": "Blank",
+    "date": "1988-04-01",
+    "entryReason": "B",
+    "length": "00:14:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Bermuda, HJ, Wayne Prat, Sal Azz, Jack Rob, Etc. (inaudible)",
+    "sideB": "Bermuda, HJ, WPrat, Sazz., Jack Rob, Etc.(inaudible)",
+    "date": "1989-10-01",
+    "entryReason": "B",
+    "length": "01:28:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "KS/HJ Talk @ Bermuda",
+    "sideB": "KS/HJ Talk @ Bermuda",
+    "date": "1989-10-22",
+    "entryReason": "B",
+    "length": "01:28:03",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Eldon/Jarecki Mtg. On MTA Method & Julien Holenberg/HJ",
+    "sideB": "Eldon/Jarecki Mtg. (cont'd)",
+    "date": "1990-01-01",
+    "entryReason": "B",
+    "length": "01:01:22",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "NYNEX 777 Radio \"Film/Food\" \u2026",
+    "sideB": "Blank",
+    "date": "1994-05-11",
+    "entryReason": "B",
+    "length": "00:01:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Interview Gold Market Development (NYMEX) (poor quality)",
+    "sideB": "Blank",
+    "date": "1995-01-19",
+    "entryReason": "B",
+    "length": "00:29:16",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "MF Cuts 1-8 0:25, Cuts 9-15 0:15, Ryan Drossman & Part.",
+    "sideB": "Blank",
+    "date": "1996-01-04",
+    "entryReason": "B",
+    "length": "00:07:02",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "New School Conference",
+    "sideB": "New School Conference",
+    "date": "1984-11-17",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Shanghai Talk",
+    "sideB": "HJ Shanghai Talk",
+    "date": "2005-09-01",
+    "entryReason": "B",
+    "length": "00:59:16",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "?/Art Gormley/?/HJ speaking at conference in LA",
+    "sideB": "HJ speaking at conference in LA-cont'd",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "01:02:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Bakhtiar/Chi: Farhad calls Ho Chi to complain about not being informed via telex about his trade order being filled; places order elsewhere and now may have 2 trades filled; Ho Chi cancels trade",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:04:16",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Conversation ab. Trading Deal",
+    "sideB": "HJ Conversation w/ Unknown",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ MMC talk (damaged)",
+    "sideB": "HJ MMC talk-cont'd (damaged)",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:41:05",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ speaking at conference in LA-cont'd",
+    "sideB": "HJ speaking at conference in LA-cont'd",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "01:03:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Speech on Gold, Silver, etc.",
+    "sideB": "HJ Speech on Gold, Silver, etc.-cont'd",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:35:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ talk w/ PH ab. SSeas, Caribbean Exile ",
+    "sideB": "Blank ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/? Phone Conver. on Business Develpmnt",
+    "sideB": "HJ/? Phone Conver. on FDIC portfolio exam.",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:53:04",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ/? Phone Conver. on 'Machine' Trading",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:06:03",
+    "quality": "N/A"
   },
   {
     "audio": "/audio/HJ_Unk Phone Conv on Property Delay_undated [cassette]-101212.mp3",
@@ -203,7 +1418,1024 @@
     "sideB": "Blank",
     "date": "Undated",
     "entryReason": "B",
-    "length": "00:27",
+    "length": "00:27:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/HJ_Cutler Phone Conv on Offer_undated [cassette]-101212.mp3",
+    "sideA": "HJ/Cutler Phone Conver. on Offer",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:07:25",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Holden (HJ Conversation - Lawyer confesses to embezz.) ",
+    "sideB": "Blank ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Norman Meyers Episode-Trading Floor (1 of 4) ",
+    "sideB": "Norman Meyers Episode-Trading Floor (1 of 4) ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Norman Meyers Episode-Trading Floor (2 of 4) ",
+    "sideB": "Norman Meyers Episode-Trading Floor (2 of 4) ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Norman Meyers Episode-Trading Floor (3 of 4) ",
+    "sideB": "Norman Meyers Episode-Trading Floor (3 of 4) ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Norman Meyers Episode-Trading Floor (4 of 4) ",
+    "sideB": "Norman Meyers Episode-Trading Floor (4 of 4) ",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Tom Jackson, Peter Sellon",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "B",
+    "length": "00:27:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Rite of Spring ",
+    "sideB": "Stravinsky",
+    "date": "1913-05-29",
+    "entryReason": "E",
+    "length": "01:31:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Your Hit Parade of Hits",
+    "sideB": "Your Hit Parade of Hits",
+    "date": "1945-01-01",
+    "entryReason": "E",
+    "length": "00:09:00",
     "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lil Marlene - Marlene Dietrich",
+    "sideB": "Lil Marlene - Marlene Dietrich",
+    "date": "1960-01-01",
+    "entryReason": "E",
+    "length": "00:46:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Odetta @ Town Hall ",
+    "sideB": "Odetta @ Town Hall ",
+    "date": "1962-01-01",
+    "entryReason": "E",
+    "length": "00:51:09",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "In the Wind - Peter, Paul and Mary",
+    "sideB": "In the Wind - Peter, Paul and Mary",
+    "date": "1963-01-01",
+    "entryReason": "E",
+    "length": "00:38:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Newport Folk Festival Vol 1",
+    "sideB": "Newport Folk Festival Vol 1 ",
+    "date": "1963-01-01",
+    "entryReason": "E",
+    "length": "00:48:00",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Weavers @ Carnegie Hall ",
+    "sideB": "The Weavers @ Carnegie Hall ",
+    "date": "1963-01-01",
+    "entryReason": "E",
+    "length": "01:16:03",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Freewheelin' - Bob Dylan",
+    "sideB": "The Freewheelin' - Bob Dylan",
+    "date": "1963-05-01",
+    "entryReason": "E",
+    "length": "00:50:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Village Gate - Pete Seeger@Carnegie Hall (poor quality)",
+    "sideB": "Village Gate - Pete Seeger@Carnegie Hall (poor quality)",
+    "date": "1963-06-08",
+    "entryReason": "E",
+    "length": "00:37:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Newport Folk Festival Vol 1 (poor quality)",
+    "sideB": "Newport Folk Festival Vol 1 (poor quality)",
+    "date": "1964-01-01",
+    "entryReason": "E",
+    "length": "00:46:28",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Cabaret (2 cc's)",
+    "sideB": "Cabaret",
+    "date": "1972-01-01",
+    "entryReason": "E",
+    "length": "00:39:23",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "BJ Dexter",
+    "sideB": "BJ Dexter",
+    "date": "1973-01-01",
+    "entryReason": "E",
+    "length": "01:01:28",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Skylark, Drinking Again - Bette Midler",
+    "sideB": "Skylark, Drinking Again - Bette Midler",
+    "date": "1973-01-01",
+    "entryReason": "E",
+    "length": "00:32:27",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Best of Leonard Cohen",
+    "sideB": "The Best of Leonard Cohen ",
+    "date": "1975-01-01",
+    "entryReason": "E",
+    "length": "00:46:10",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Vivaldi: The Four Seasons/Itzhak Perlman - 1",
+    "sideB": "Vivaldi: The Four Seasons... - 2 (damaged)",
+    "date": "1976-01-01",
+    "entryReason": "E",
+    "length": "00:24:16",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Scheherazade St Louis Orchestra - Rinsky Korsakav",
+    "sideB": "Scheherazade St Louis Orchestra - Rinsky Korsakav",
+    "date": "1977-01-01",
+    "entryReason": "E",
+    "length": "00:49:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "All Fly Home - Al Jarreau",
+    "sideB": "All Fly Home - Al Jarreau",
+    "date": "1978-01-01",
+    "entryReason": "E",
+    "length": "00:38:11",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Harps of Ancient Temples",
+    "sideB": "Gail Laughton",
+    "date": "1978-01-01",
+    "entryReason": "E",
+    "length": "00:28:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Strauss songs London Orchestra - Kiri Te Kanawa (damaged) ",
+    "sideB": "Strauss songs London Orchestra - Kiri Te Kanawa (damaged)",
+    "date": "1979-01-01",
+    "entryReason": "E",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Autumn",
+    "sideB": "George Winston",
+    "date": "1980-01-01",
+    "entryReason": "E",
+    "length": "00:45:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Scissors Cut - Art Garfunkel",
+    "sideB": "Scissors Cut - Art Garfunkel",
+    "date": "1981-01-01",
+    "entryReason": "E",
+    "length": "00:31:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Dietirch Decca Recordings - Marlene Dietrich",
+    "sideB": "Dietirch Decca Recordings - Marlene Dietrich",
+    "date": "1982-01-01",
+    "entryReason": "E",
+    "length": "00:30:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Spike Jones & his City Slickers - Spike Jones",
+    "sideB": "Spike Jones & his City Slickers - Spike Jones",
+    "date": "1982-01-01",
+    "entryReason": "E",
+    "length": "00:57:07",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Caverna Magica",
+    "sideB": "Andreas Vollenweider",
+    "date": "1983-01-01",
+    "entryReason": "E",
+    "length": "00:33:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lucio Dalla",
+    "sideB": "Lucio Dalla",
+    "date": "1983-01-01",
+    "entryReason": "E",
+    "length": "00:37:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Toberua Serenades",
+    "sideB": "Toberua Serenades ",
+    "date": "1986-01-01",
+    "entryReason": "E",
+    "length": "00:39:19",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Andreas Vollenweider - Down to the Moon - Side 1",
+    "sideB": "Andreas Vollenweider - Side 2",
+    "date": "1986-01-01",
+    "entryReason": "E",
+    "length": "00:36:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Running in the family",
+    "sideB": "Level 42",
+    "date": "1986-01-01",
+    "entryReason": "E",
+    "length": "00:43:25",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Princeton Tigertones Informal - 1",
+    "sideB": "The Princeton Tigertones Informal - 2",
+    "date": "1987-01-01",
+    "entryReason": "E",
+    "length": "00:52:24",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The World According to Me - Jackie Mason",
+    "sideB": "The World According to Me - Jackie Mason",
+    "date": "1987-01-01",
+    "entryReason": "E",
+    "length": "01:02:18",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Ella sings Cole - Ella Fitzgerald",
+    "sideB": "Ella sings Cole - Ella Fitzgerald",
+    "date": "1987-05-01",
+    "entryReason": "E",
+    "length": "01:27:16",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Heavy Nova - Robert Palmer",
+    "sideB": "Heavy Nova - Robert Palmer",
+    "date": "1988-01-01",
+    "entryReason": "E",
+    "length": "00:38:07",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Aspects of Love Act I - Andrew Lloyd Webber",
+    "sideB": "Aspects of Love Act I - Andrew Lloyd Webber",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "01:06:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Aspects of Love Act II - Andrew Lloyd Webber",
+    "sideB": "Aspects of Love Act II - Andrew Lloyd Webber",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "01:11:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Chere Jackie / Ave C Joan",
+    "sideB": "Chere Jackie / Ave C Joan",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "01:42:13",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Dr Zhivago & The Nutcracker",
+    "sideB": "Dr Zhivago & The Nutcracker",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "01:28:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Everlasting Love",
+    "sideB": "Various Artists",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "00:43:27",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Special Gift - Charia Ungi",
+    "sideB": "Special Gift - Charia Ungi",
+    "date": "1989-01-01",
+    "entryReason": "E",
+    "length": "01:00:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Ride On King Jesus",
+    "sideB": "Florence Quivar",
+    "date": "1990-01-01",
+    "entryReason": "E",
+    "length": "01:06:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The White Cliffs of Dover - Tape 1",
+    "sideB": "The White Cliffs of Dover - Tape 1",
+    "date": "1990-01-01",
+    "entryReason": "E",
+    "length": "00:41:23",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The White Cliffs of Dover - Tape 2",
+    "sideB": "The White Cliffs of Dover - Tape 2",
+    "date": "1990-01-01",
+    "entryReason": "E",
+    "length": "00:42:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Dietrich Live @ Caf\u00e9 Paris - Marlene Dietrich",
+    "sideB": "Dietrich Live @ Caf\u00e9 Paris - Marlene Dietrich",
+    "date": "1991-01-01",
+    "entryReason": "E",
+    "length": "01:00:21",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Live Bait - The Outlaws",
+    "sideB": "Live Bait - The Outlaws",
+    "date": "1992-01-01",
+    "entryReason": "E",
+    "length": "00:45:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/Melvin Van Peebles_No Justice No Peace_1992 [cassette]-100412.mp3",
+    "sideA": "No Justice, No Peace - Melvin Van Peebles",
+    "sideB": "No Justice, No Peace - Melvin Van Peebles",
+    "date": "1992-01-01",
+    "entryReason": "E",
+    "length": "00:04:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "I've Got Thunder",
+    "sideB": "Baby Jane Dexter",
+    "date": "1993-01-01",
+    "entryReason": "E",
+    "length": "00:51:28",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Man Who Murdered Music - Spike Jones",
+    "sideB": "The Man Who Murdered Music - Spike Jones",
+    "date": "1994-01-01",
+    "entryReason": "E",
+    "length": "01:06:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Peter Alexander der Sonne entgen",
+    "sideB": "Peter Alexander der Sonne entgen",
+    "date": "1998-01-01",
+    "entryReason": "E",
+    "length": "00:41:03",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/Baby Jane Dexter_Joe the Bomber_2001 [cassette]-100212.mp3",
+    "sideA": "Baby Jane Dexter Joe The Bomber",
+    "sideB": "blank",
+    "date": "2001-01-01",
+    "entryReason": "E",
+    "length": "00:03:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "A Matter of Time (Music)",
+    "sideB": "A Matter of Time (Music)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:41:17",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Accord vocal quartet",
+    "sideB": "Accord vocal quartet",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:50:09",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Bessie Smith Album 1",
+    "sideB": "Bessie Smith Album 1",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:30:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Bessie Smith Album 2",
+    "sideB": "Bessie Smith Album 2",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:27:10",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Bessie Smith Album 3",
+    "sideB": "Bessie Smith Album 3",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:34:11",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Billie Holiday / Mahalia Jackson",
+    "sideB": "Billie Holiday / Mahalia Jackson ",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:58:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Billie Holiday / Mahalia Jackson",
+    "sideB": "Billie Holiday / Mahalia Jackson ",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:04:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Check point & BBC - Simon Fletcher (plays too fast, speeds up)",
+    "sideB": "Check point & BBC - Simon Fletcher",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:25:07",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "I ain't marchin' anymore - Phil Ochs",
+    "sideB": "I ain't marchin' anymore - Phil Ochs",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:54:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lamebert Hendricks & Ross",
+    "sideB": "Lambert Hendricks & Ross Sing Ellington",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:33:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lead Belly's last session Vol. I (Side 1)",
+    "sideB": "Lead Belly's last session Vol. I (Side 2)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:00:00",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lead Belly's last session Vol. I (Side 3)",
+    "sideB": "Lead Belly's last session Vol. I (Side 4)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:00:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lead Belly's last session Vol. II (Side 1)",
+    "sideB": "Lead Belly's last session Vol. II (Side 2)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:00:21",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Lead Belly's last session Vol. II (Side 3)",
+    "sideB": "Lead Belly's last session Vol. II (Side 4)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:58:29",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Licorice Factory",
+    "sideB": "Licorice Factory",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:37:02",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Listen w/out Prejudice",
+    "sideB": "George Michael / Dee-Lite",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:32:08",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Live Bait - Prince Ras Dawit Makownon/Bob Marley",
+    "sideB": "Live Bait - Prince Ras Dawit Makownon/Bob Marley",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:33:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Marlene Dietrich - Assorted",
+    "sideB": "Marlene Dietrich - Assorted",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:26:28",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Mary Black/Del Amitri",
+    "sideB": "Mary Black / Del Amitri",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:29:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Melanie/Lambert Hendrick's/Ross",
+    "sideB": "Melanie/Lambert Hendrick's & Ross",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:37:06",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Newport Broadside",
+    "sideB": "Newport Broadside",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:44:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Nostalgia - Irene",
+    "sideB": "Nostalgia - Irene",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:19:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Odetta @ Carnegie Hall",
+    "sideB": "Odetta @ Carnegie Hall",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:44:03",
+    "quality": "Good"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Pete Seeger @ The Village Gate Vol. II (poor quality)",
+    "sideB": "Pete Seeger @ The Village Gate Vol. II (poor quality)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:40:10",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Pretty Woman Soundtrack",
+    "sideB": "Various Artists",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:08:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "State Siberian Russian Folk Choir",
+    "sideB": "State Siberian Russian Folk Chorus",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:48:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Steeldrum Magic Vol 1",
+    "sideB": "Steeldrum Magic Vol 1",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:47:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Susanne Vega",
+    "sideB": "Susanne Vega",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:30:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Ten - Pearl Jam",
+    "sideB": "Ten - Pearl Jam",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:28:23",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Good, The Bad & The Ugly",
+    "sideB": "The Good, The Bad & The Ugly",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:34:03",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Times They Are'a Changin' - Bob Dylan (poor quality)",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:42:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "The Weavers Reunion Part 2 (poor quality)",
+    "sideB": "The Weavers Reunion Part 2 (poor quality)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:49:02",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Toberua Serenades Vol. 2",
+    "sideB": "Toberua Serenades (2)",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:51:28",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Treasures of Tutankhamun",
+    "sideB": "Metropolitan Museum of Art",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:54:05",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Verdi Macbeth Opus 24 - Ravel, Bariton, Chen",
+    "sideB": "Verdi Macbeth Opus 24 - Ravel, Bariton, Chen",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:37:00",
+    "quality": "Good/ Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Wolfgang's Hustle - Bob Allen",
+    "sideB": "Wolfgang's Hustle - Bob Allen",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "00:08:28",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "You Are The Ocean - Schawkie Roth",
+    "sideB": "You Are The Ocean - Schawkie Roth",
+    "date": "Undated",
+    "entryReason": "E",
+    "length": "01:01:25",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Henry & Richard: Ama (Gonzales Fix) (poor quality-original in vinyl)",
+    "sideB": "Blank",
+    "date": "1940-01-01",
+    "entryReason": "F",
+    "length": "00:06:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Sabor - In German (poor quality)",
+    "sideB": "Sabor - In German (poor quality)",
+    "date": "1982-12-14",
+    "entryReason": "F",
+    "length": "00:42:19",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Fritzen (In German)",
+    "sideB": "Fritzen (In German)",
+    "date": "1987-04-01",
+    "entryReason": "F",
+    "length": "01:22:12",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Incoming Messages - RWJ, GS (poor quality)",
+    "sideB": "Incoming Messages - RWJ, GS (poor quality)",
+    "date": "1990-01-01",
+    "entryReason": "F",
+    "length": "00:20:24",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "GS Interview for School (poor quality)",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "00:10:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "GS Recordings ",
+    "sideB": "Blank ",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "GS Speech at JHJ Wedding (poor quality)",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "00:03:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Max, Bill, Henry, Richard, Paul in Rye 1:2 (In German)",
+    "sideB": "Max, Bill, Henry, Richard, Paul in Rye 1:2 (In German)",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "00:21:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Max, Bill, Henry, Richard, Paul in Rye 2:2 (In German) & German Music ",
+    "sideB": "Max, Bill, Henry, Richard, Paul in Rye 2:2 (In German) & German Music",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "00:42:00",
+    "quality": "Ok/ Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Max, HJ, Koslow (In German-poor quality) -Later German Music",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "F",
+    "length": "00:42:01",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Scientific Symposium (Lazell and Scientists) ",
+    "sideB": "Scientific Symposium (HJ, LJ, etc.) ",
+    "date": "1988-07-21",
+    "entryReason": "G",
+    "length": "Where?",
+    "quality": "N/A"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Xmas Skit (inaudible)",
+    "sideB": "Blank",
+    "date": "1959-01-01",
+    "entryReason": "H",
+    "length": "00:42:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ Interview on Gold",
+    "sideB": "Talk @ Xmas Party for MMC  ",
+    "date": "1974-12-01",
+    "entryReason": "H",
+    "length": "01:05:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Cuba (poor quality)",
+    "sideB": "Cuba (poor quality)",
+    "date": "1998-01-01",
+    "entryReason": "H",
+    "length": "00:18:10",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Cave 54 Heidelberg (In German - poor quality)",
+    "sideB": "Cave 54 Heidelberg (In German - poor quality)",
+    "date": "Undated",
+    "entryReason": "H",
+    "length": "00:32:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Henry G. Jarecki (inaudible)",
+    "sideB": "Henry G. Jarecki (inaudible)",
+    "date": "Undated",
+    "entryReason": "H",
+    "length": "00:56:10",
+    "quality": "Poor"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "HJ on Psychology of Silver Speculation (poor quality)",
+    "sideB": "HJ on Psychology of Silver...cont'd (poor quality)",
+    "date": "Undated",
+    "entryReason": "H",
+    "length": "00:33:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Vicki Brown on her delusions (inaudible)",
+    "sideB": "Random Music (inaudible)",
+    "date": "Undated",
+    "entryReason": "H",
+    "length": "00:28:00",
+    "quality": "Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "Workout - Jane Fonda",
+    "sideB": "Workout - Jane Fonda",
+    "date": "1977-01-01",
+    "entryReason": "I",
+    "length": "01:20:00",
+    "quality": "Poor/ Bad"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "My Pritikin Exercise Class Instructor D",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "I",
+    "length": "00:16:00",
+    "quality": "Ok"
+  },
+  {
+    "audio": "/audio/",
+    "sideA": "My Pritikin Exercise Class Instructor F: Kim",
+    "sideB": "Blank",
+    "date": "Undated",
+    "entryReason": "I",
+    "length": "00:10:16",
+    "quality": "Ok"
   }
 ]
