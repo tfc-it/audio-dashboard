@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,10 @@
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
   <style>
+    :root {
+      --legend-height: 120px;
+      --button-row-height: 40px;
+    }
     body { font-family: Arial, sans-serif; padding: 20px; }
     table.dataTable tbody tr { vertical-align: middle; }
     /* Legend styling */
@@ -14,6 +18,12 @@
       border: 1px solid #ccc;
       padding: 10px;
       margin: 0 0 10px 0;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1000;
+      height: var(--legend-height);
+      overflow: auto;
     }
     fieldset.legend legend { font-weight: bold; }
     fieldset.legend ul {
@@ -25,14 +35,28 @@
       list-style: none;
     }
     fieldset.legend ul li { margin-bottom: 5px; }
-    /* Button header styling */
+
+    /* Sort button header styling */
     table.dataTable thead .sort-btn {
       padding: 5px;
       white-space: nowrap;
+      position: sticky;
+      top: var(--legend-height);
+      background: #fff;
+      z-index: 999;
+      height: var(--button-row-height);
     }
     table.dataTable thead .sort-btn button {
       width: 100%;
       box-sizing: border-box;
+    }
+
+    /* Column header row styling */
+    table.dataTable thead .header-row th {
+      position: sticky;
+      top: calc(var(--legend-height) + var(--button-row-height));
+      background: #fff;
+      z-index: 998;
     }
   </style>
 </head>
@@ -58,7 +82,7 @@
 
   <table id="audioTable" class="display" style="width:100%">
     <thead>
-      <tr>
+      <tr class="sort-btn-row">
         <th class="sort-btn"></th>
         <th class="sort-btn"><button data-col="1">Sort Side A</button></th>
         <th class="sort-btn"><button data-col="2">Sort Side B</button></th>
@@ -67,7 +91,7 @@
         <th class="sort-btn"><button data-col="5">Sort Length</button></th>
         <th class="sort-btn"><button data-col="6">Sort Quality</button></th>
       </tr>
-      <tr>
+      <tr class="header-row">
         <th>Audio</th>
         <th>Side A</th>
         <th>Side B</th>
