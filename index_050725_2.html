@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
-    #controls { position: sticky; top: 0; background: #fff; z-index: 1000; }
     #sort-buttons button { margin: 5px; }
     table.dataTable tbody tr { vertical-align: middle; }
     /* Legend styling */
     fieldset.legend {
       border: 1px solid #ccc;
       padding: 10px;
-      margin: 0 0 10px 0;
+      margin: 20px 0;
+      /* Sticky positioning */
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1000;
     }
     fieldset.legend legend { font-weight: bold; }
     fieldset.legend ul {
@@ -27,43 +31,37 @@
       list-style: none;
     }
     fieldset.legend ul li { margin-bottom: 5px; }
-    /* Sticky headers will be applied via JS */
-    table.dataTable thead th {
-      position: sticky;
-      background: #fff;
-      z-index: 999;
-    }
   </style>
 </head>
 <body>
   <h1>HJ Cassettes Log</h1>
-  <div id="controls">
-    <fieldset class="legend">
-      <legend>Entry Reason Key</legend>
-      <ul>
-        <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
-        <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
-        <li><strong>GOE</strong>: Gard. of Eden (0)</li>
-        <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
-        <li><strong>D</strong>: Documentary (0)</li>
-        <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
-        <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
-        <li><strong>M</strong>: Medical (0)</li>
-        <li><strong>F</strong>: Family (10) – Length: 4:28</li>
-        <li><strong>U</strong>: Unknown (0)</li>
-        <li><strong>G</strong>: GI (1) – Missing</li>
-        <li><strong>V</strong>: BVI/GI (0)</li>
-      </ul>
-    </fieldset>
-    <div id="sort-buttons">
-      <!-- <button data-col="0">Sort by Audio</button>-->
-      <button data-col="1">Sort by Side A</button>
-      <button data-col="2">Sort by Side B</button>
-      <button data-col="3">Sort by Date</button>
-      <button data-col="4">Sort by Entry Reason</button>
-      <button data-col="5">Sort by Length</button>
-      <button data-col="6">Sort by Quality</button>
-    </div>
+
+  <fieldset class="legend">
+    <legend>Entry Reason Key</legend>
+    <ul>
+      <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
+      <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
+      <li><strong>GOE</strong>: Gard. of Eden (0)</li>
+      <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
+      <li><strong>D</strong>: Documentary (0)</li>
+      <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
+      <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
+      <li><strong>M</strong>: Medical (0)</li>
+      <li><strong>F</strong>: Family (10) – Length: 4:28</li>
+      <li><strong>U</strong>: Unknown (0)</li>
+      <li><strong>G</strong>: GI (1) – Missing</li>
+      <li><strong>V</strong>: BVI/GI (0)</li>
+    </ul>
+  </fieldset>
+
+  <div id="sort-buttons">
+    <!-- <button data-col="0">Sort by Audio</button>-->
+    <button data-col="1">Sort by Side A</button>
+    <button data-col="2">Sort by Side B</button>
+    <button data-col="3">Sort by Date</button>
+    <button data-col="4">Sort by Entry Reason</button>
+    <button data-col="5">Sort by Length</button>
+    <button data-col="6">Sort by Quality</button>
   </div>
 
   <table id="audioTable" class="display" style="width:100%">
@@ -91,7 +89,6 @@
           url: 'data.json?ts=' + Date.now(),
           dataSrc: ''
         },
-        paging: false,       // Show all entries by default
         columns: [
           {
             data: 'audio',
@@ -108,14 +105,6 @@
         ],
         order: []
       });
-
-      // After draw, calculate offset for sticky headers
-      function updateHeaderOffset() {
-        var offset = $('#controls').outerHeight();
-        $('#audioTable thead th').css('top', offset + 'px');
-      }
-      table.on('draw.dt', updateHeaderOffset);
-      updateHeaderOffset();
 
       // Sort button handlers
       $('#sort-buttons button').on('click', function() {
