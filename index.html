@@ -6,12 +6,8 @@
   <title>HJ Cassettes Log</title>
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <!-- FixedHeader CSS -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
-    #controls { position: sticky; top: 0; background: #fff; z-index: 1000; padding-bottom: 10px; }
-    #sort-buttons button { margin: 5px; }
     table.dataTable tbody tr { vertical-align: middle; }
     /* Legend styling */
     fieldset.legend {
@@ -29,40 +25,48 @@
       list-style: none;
     }
     fieldset.legend ul li { margin-bottom: 5px; }
+    /* Button header styling */
+    table.dataTable thead .sort-btn {
+      padding: 5px;
+      white-space: nowrap;
+    }
+    table.dataTable thead .sort-btn button {
+      width: 100%;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 <body>
   <h1>HJ Cassettes Log</h1>
-  <div id="controls">
-    <fieldset class="legend">
-      <legend>Entry Reason Key</legend>
-      <ul>
-        <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
-        <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
-        <li><strong>GOE</strong>: Gard. of Eden (0)</li>
-        <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
-        <li><strong>D</strong>: Documentary (0)</li>
-        <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
-        <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
-        <li><strong>M</strong>: Medical (0)</li>
-        <li><strong>F</strong>: Family (10) – Length: 4:28</li>
-        <li><strong>U</strong>: Unknown (0)</li>
-        <li><strong>G</strong>: GI (1) – Missing</li>
-        <li><strong>V</strong>: BVI/GI (0)</li>
-      </ul>
-    </fieldset>
-    <div id="sort-buttons">
-      <button data-col="1">Sort by Side A</button>
-      <button data-col="2">Sort by Side B</button>
-      <button data-col="3">Sort by Date</button>
-      <button data-col="4">Sort by Entry Reason</button>
-      <button data-col="5">Sort by Length</button>
-      <button data-col="6">Sort by Quality</button>
-    </div>
-  </div>
+  <fieldset class="legend">
+    <legend>Entry Reason Key</legend>
+    <ul>
+      <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
+      <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
+      <li><strong>GOE</strong>: Gard. of Eden (0)</li>
+      <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
+      <li><strong>D</strong>: Documentary (0)</li>
+      <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
+      <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
+      <li><strong>M</strong>: Medical (0)</li>
+      <li><strong>F</strong>: Family (10) – Length: 4:28</li>
+      <li><strong>U</strong>: Unknown (0)</li>
+      <li><strong>G</strong>: GI (1) – Missing</li>
+      <li><strong>V</strong>: BVI/GI (0)</li>
+    </ul>
+  </fieldset>
 
   <table id="audioTable" class="display" style="width:100%">
     <thead>
+      <tr>
+        <th class="sort-btn"></th>
+        <th class="sort-btn"><button data-col="1">Sort Side A</button></th>
+        <th class="sort-btn"><button data-col="2">Sort Side B</button></th>
+        <th class="sort-btn"><button data-col="3">Sort Date</button></th>
+        <th class="sort-btn"><button data-col="4">Sort Entry Reason</button></th>
+        <th class="sort-btn"><button data-col="5">Sort Length</button></th>
+        <th class="sort-btn"><button data-col="6">Sort Quality</button></th>
+      </tr>
       <tr>
         <th>Audio</th>
         <th>Side A</th>
@@ -79,31 +83,31 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- DataTables JS -->
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <!-- FixedHeader JS -->
-  <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
   <script>
     $(document).ready(function() {
       var table = $('#audioTable').DataTable({
-        ajax: { url: 'data.json?ts=' + Date.now(), dataSrc: '' },
+        ajax: {
+          url: 'data.json?ts=' + Date.now(),
+          dataSrc: ''
+        },
         paging: false,
-        fixedHeader: true,
+        order: [],
         columns: [
-          { data: 'audio', render: function(path) { return '<audio controls src="' + path + '"></audio>'; } },
+          { data: 'audio', orderable: false, render: function(path) { return '<audio controls src="' + path + '"></audio>'; } },
           { data: 'sideA' },
           { data: 'sideB' },
           { data: 'date' },
           { data: 'entryReason' },
           { data: 'length' },
           { data: 'quality' }
-        ],
-        order: []
+        ]
       });
 
-      // Sort button handlers
-      $('#sort-buttons button').on('click', function() {
+      // Delegate click events for header buttons
+      $('#audioTable thead').on('click', 'button[data-col]', function() {
         var col = $(this).data('col');
         var current = table.order()[0] || [];
-        var dir = (current[0] === col && current[1] === 'asc') ? 'desc' : 'asc';
+        var dir = current[0] === col && current[1] === 'asc' ? 'desc' : 'asc';
         table.order([col, dir]).draw();
       });
     });
