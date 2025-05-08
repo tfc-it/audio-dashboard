@@ -1,15 +1,1 @@
-{
-  "projectId": "prj_KMOp42iAfTXQJVh3GbJNRoTlQEFS",
-  "orgId": "team_tdijuJb9bq4O6mkYeqZpwIFB",
-  "settings": {
-    "createdAt": 1745869797161,
-    "framework": null,
-    "devCommand": null,
-    "installCommand": null,
-    "buildCommand": null,
-    "outputDirectory": null,
-    "rootDirectory": null,
-    "directoryListing": false,
-    "nodeVersion": "22.x"
-  }
-}
+{"projectId":"prj_KMOp42iAfTXQJVh3GbJNRoTlQEFS","orgId":"team_tdijuJb9bq4O6mkYeqZpwIFB"}
