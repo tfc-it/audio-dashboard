@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,24 +6,19 @@
   <title>HJ Cassettes Log</title>
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <!-- FixedHeader CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
   <style>
-    :root {
-      --legend-height: 120px;
-      --button-row-height: 40px;
-    }
     body { font-family: Arial, sans-serif; padding: 20px; }
-    table.dataTable tbody tr { vertical-align: middle; }
     /* Legend styling */
     fieldset.legend {
       border: 1px solid #ccc;
       padding: 10px;
-      margin: 0 0 10px 0;
+      margin-bottom: 10px;
       position: sticky;
       top: 0;
       background: #fff;
-      z-index: 1000;
-      height: var(--legend-height);
-      overflow: auto;
+      z-index: 1100;
     }
     fieldset.legend legend { font-weight: bold; }
     fieldset.legend ul {
@@ -35,33 +30,21 @@
       list-style: none;
     }
     fieldset.legend ul li { margin-bottom: 5px; }
-
-    /* Sort button header styling */
-    table.dataTable thead .sort-btn {
+    /* Sort button row styling */
+    table.dataTable thead tr.sort-btn-row th {
       padding: 5px;
-      white-space: nowrap;
-      position: sticky;
-      top: var(--legend-height);
-      background: #fff;
-      z-index: 999;
-      height: var(--button-row-height);
+      background: #f9f9f9;
     }
-    table.dataTable thead .sort-btn button {
+    table.dataTable thead tr.sort-btn-row button {
       width: 100%;
       box-sizing: border-box;
-    }
-
-    /* Column header row styling */
-    table.dataTable thead .header-row th {
-      position: sticky;
-      top: calc(var(--legend-height) + var(--button-row-height));
-      background: #fff;
-      z-index: 998;
     }
   </style>
 </head>
 <body>
   <h1>HJ Cassettes Log</h1>
+
+  <!-- Sticky legend -->
   <fieldset class="legend">
     <legend>Entry Reason Key</legend>
     <ul>
@@ -83,15 +66,15 @@
   <table id="audioTable" class="display" style="width:100%">
     <thead>
       <tr class="sort-btn-row">
-        <th class="sort-btn"></th>
-        <th class="sort-btn"><button data-col="1">Sort Side A</button></th>
-        <th class="sort-btn"><button data-col="2">Sort Side B</button></th>
-        <th class="sort-btn"><button data-col="3">Sort Date</button></th>
-        <th class="sort-btn"><button data-col="4">Sort Entry Reason</button></th>
-        <th class="sort-btn"><button data-col="5">Sort Length</button></th>
-        <th class="sort-btn"><button data-col="6">Sort Quality</button></th>
+        <th></th>
+        <th><button data-col="1">Sort Side A</button></th>
+        <th><button data-col="2">Sort Side B</button></th>
+        <th><button data-col="3">Sort Date</button></th>
+        <th><button data-col="4">Sort Entry Reason</button></th>
+        <th><button data-col="5">Sort Length</button></th>
+        <th><button data-col="6">Sort Quality</button></th>
       </tr>
-      <tr class="header-row">
+      <tr>
         <th>Audio</th>
         <th>Side A</th>
         <th>Side B</th>
@@ -107,24 +90,30 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- DataTables JS -->
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <!-- FixedHeader JS -->
+  <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
   <script>
     $(document).ready(function() {
+      // Calculate legend height for headerOffset
+      var legendHeight = $('fieldset.legend').outerHeight();
+
       var table = $('#audioTable').DataTable({
-        ajax: {
-          url: 'data.json?ts=' + Date.now(),
-          dataSrc: ''
-        },
+        ajax: { url: 'data.json?ts=' + Date.now(), dataSrc: '' },
         paging: false,
         order: [],
         columns: [
-          { data: 'audio', orderable: false, render: function(path) { return '<audio controls src="' + path + '"></audio>'; } },
+          { data: 'audio', orderable: false, render: path => '<audio controls src="' + path + '"></audio>' },
           { data: 'sideA' },
           { data: 'sideB' },
           { data: 'date' },
           { data: 'entryReason' },
           { data: 'length' },
           { data: 'quality' }
-        ]
+        ],
+        fixedHeader: {
+          header: true,
+          headerOffset: legendHeight
+        }
       });
 
       // Delegate click events for header buttons
