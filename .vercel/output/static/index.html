@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HJ Cassettes Log</title>
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <!-- FixedHeader CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    /* Legend styling */
+    fieldset.legend {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1100;
+    }
+    fieldset.legend legend { font-weight: bold; }
+    fieldset.legend ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 20px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    fieldset.legend ul li { margin-bottom: 5px; }
+    /* Sort button row styling */
+    table.dataTable thead tr.sort-btn-row th {
+      padding: 5px;
+      background: #f9f9f9;
+    }
+    table.dataTable thead tr.sort-btn-row button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>HJ Cassettes Log</h1>
+
+  <!-- Sticky legend -->
+  <fieldset class="legend">
+    <legend>Entry Reason Key</legend>
+    <ul>
+      <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
+      <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
+      <li><strong>GOE</strong>: Gard. of Eden (0)</li>
+      <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
+      <li><strong>D</strong>: Documentary (0)</li>
+      <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
+      <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
+      <li><strong>M</strong>: Medical (0)</li>
+      <li><strong>F</strong>: Family (10) – Length: 4:28</li>
+      <li><strong>U</strong>: Unknown (0)</li>
+      <li><strong>G</strong>: GI (1) – Missing</li>
+      <li><strong>V</strong>: BVI/GI (0)</li>
+    </ul>
+  </fieldset>
+
+  <table id="audioTable" class="display" style="width:100%">
+    <thead>
+      <tr class="sort-btn-row">
+        <th></th>
+        <th><button data-col="1">Sort Side A</button></th>
+        <th><button data-col="2">Sort Side B</button></th>
+        <th><button data-col="3">Sort Date</button></th>
+        <th><button data-col="4">Sort Entry Reason</button></th>
+        <th><button data-col="5">Sort Length</button></th>
+        <th><button data-col="6">Sort Quality</button></th>
+      </tr>
+      <tr>
+        <th>Audio</th>
+        <th>Side A</th>
+        <th>Side B</th>
+        <th>Date</th>
+        <th>Entry Reason</th>
+        <th>Length</th>
+        <th>Quality</th>
+      </tr>
+    </thead>
+  </table>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <!-- FixedHeader JS -->
+  <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Calculate legend height for headerOffset
+      var legendHeight = $('fieldset.legend').outerHeight();
+
+      var table = $('#audioTable').DataTable({
+        ajax: { url: 'data.json?ts=' + Date.now(), dataSrc: '' },
+        paging: false,
+        order: [],
+        columns: [
+          { data: 'audio', orderable: false, render: path => '<audio controls src="' + path + '"></audio>' },
+          { data: 'sideA' },
+          { data: 'sideB' },
+          { data: 'date' },
+          { data: 'entryReason' },
+          { data: 'length' },
+          { data: 'quality' }
+        ],
+        fixedHeader: {
+          header: true,
+          headerOffset: legendHeight
+        }
+      });
+
+      // Delegate click events for header buttons
+      $('#audioTable thead').on('click', 'button[data-col]', function() {
+        var col = $(this).data('col');
+        var current = table.order()[0] || [];
+        var dir = current[0] === col && current[1] === 'asc' ? 'desc' : 'asc';
+        table.order([col, dir]).draw();
+      });
+    });
+  </script>
+</body>
+</html>
