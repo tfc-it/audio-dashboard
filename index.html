@@ -102,7 +102,14 @@
         paging: false,
         order: [],
         columns: [
-          { data: 'audio', orderable: false, render: path => '<audio controls src="' + path + '"></audio>' },
+          {
+            data: 'audio',
+            orderable: false,
+            render: function(path) {
+              // Render audio with src but defer loading until play
+              return '<audio controls preload="none" src="' + path + '"></audio>';
+            }
+          },
           { data: 'sideA' },
           { data: 'sideB' },
           { data: 'date' },
