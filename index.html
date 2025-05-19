@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
+
     /* Legend styling */
     fieldset.legend {
       border: 1px solid #ccc;
@@ -21,16 +22,21 @@
       z-index: 1100;
     }
     fieldset.legend legend { font-weight: bold; }
-    fieldset.legend ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px 20px;
+    .legend-grid {
+      display: flex;
+      gap: 20px;
+    }
+    .legend-grid ul {
       margin: 0;
       padding: 0;
       list-style: none;
+      flex: 1;
     }
-    fieldset.legend ul li { margin-bottom: 5px; }
-    /* Sort button row styling */
+    .legend-grid li {
+      margin-bottom: 5px;
+    }
+
+    /* Sort-button row styling */
     table.dataTable thead tr.sort-btn-row th {
       padding: 5px;
       background: #f9f9f9;
@@ -44,44 +50,51 @@
 <body>
   <h1>HJ Cassettes Log</h1>
 
-  <!-- Sticky legend -->
   <fieldset class="legend">
     <legend>Entry Reason Key</legend>
-    <ul>
-      <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
-      <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
-      <li><strong>GOE</strong>: Gard. of Eden (0)</li>
-      <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
-      <li><strong>D</strong>: Documentary (0)</li>
-      <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
-      <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
-      <li><strong>M</strong>: Medical (0)</li>
-      <li><strong>F</strong>: Family (10) – Length: 4:28</li>
-      <li><strong>U</strong>: Unknown (0)</li>
-      <li><strong>G</strong>: GI (1) – Missing</li>
-      <li><strong>V</strong>: BVI/GI (0)</li>
-    </ul>
+    <div class="legend-grid">
+      <ul>
+        <li><strong>A</strong>: Acq. and Friends (15) – Length: 13:55</li>
+        <li><strong>B</strong>: HJ Business (150) – Length: 115:22</li>
+        <li><strong>E</strong>: Entertainment (85) – Length: 72:48</li>
+        <li><strong>F</strong>: Family (10) – Length: 4:28</li>
+      </ul>
+      <ul>
+        <li><strong>G</strong>: GI (1) – Missing</li>
+        <li><strong>H</strong>: HJ (7) – Length: 4:34</li>
+        <li><strong>I</strong>: Instruction (3) – Length: 1:46</li>
+      </ul>
+      <ul>
+        <li><strong>D</strong>: Documentary (0)</li>
+        <li><strong>GOE</strong>: Gard. of Eden (0)</li>
+        <li><strong>M</strong>: Medical (0)</li>
+        <li><strong>U</strong>: Unknown (0)</li>
+        <li><strong>V</strong>: BVI/GI (0)</li>
+      </ul>
+    </div>
   </fieldset>
 
   <table id="audioTable" class="display" style="width:100%">
     <thead>
       <tr class="sort-btn-row">
         <th></th>
-        <th><button data-col="1">Sort Side A</button></th>
-        <th><button data-col="2">Sort Side B</button></th>
-        <th><button data-col="3">Sort Date</button></th>
-        <th><button data-col="4">Sort Entry Reason</button></th>
+        <th></th>
+        <th><button data-col="2">Sort Side A</button></th>
+        <th><button data-col="3">Sort Side B</button></th>
+        <th><button data-col="4">Sort Date</button></th>
         <th><button data-col="5">Sort Length</button></th>
         <th><button data-col="6">Sort Quality</button></th>
+        <th><button data-col="7">Sort Entry Reason</button></th>
       </tr>
       <tr>
+        <th>#</th>
         <th>Audio</th>
         <th>Side A</th>
         <th>Side B</th>
         <th>Date</th>
-        <th>Entry Reason</th>
         <th>Length</th>
         <th>Quality</th>
+        <th>Entry Reason</th>
       </tr>
     </thead>
   </table>
@@ -94,28 +107,39 @@
   <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
   <script>
     $(document).ready(function() {
-      // Calculate legend height for headerOffset
+      // figure out how tall the legend is so the fixed header sits below it
       var legendHeight = $('fieldset.legend').outerHeight();
 
       var table = $('#audioTable').DataTable({
-        ajax: { url: 'data.json?ts=' + Date.now(), dataSrc: '' },
+        ajax: {
+          url: 'data.json?ts=' + Date.now(),
+          dataSrc: ''
+        },
         paging: false,
         order: [],
         columns: [
+          // 1) empty placeholder for row numbers
+          { data: null, orderable: false, defaultContent: '' },
+          // 2) audio player
           {
             data: 'audio',
             orderable: false,
             render: function(path) {
-              // Render audio with src but defer loading until play
               return '<audio controls preload="none" src="' + path + '"></audio>';
             }
           },
+          // 3) Side A
           { data: 'sideA' },
+          // 4) Side B
           { data: 'sideB' },
+          // 5) Date
           { data: 'date' },
-          { data: 'entryReason' },
+          // 6) Length
           { data: 'length' },
-          { data: 'quality' }
+          // 7) Quality
+          { data: 'quality' },
+          // 8) Entry Reason
+          { data: 'entryReason' }
         ],
         fixedHeader: {
           header: true,
@@ -123,11 +147,25 @@
         }
       });
 
-      // Delegate click events for header buttons
+      // After every draw (sort, search, page, etc.), update the row numbers
+      table.on('draw.dt order.dt search.dt', function() {
+        table.column(0, { order: 'applied', search: 'applied' })
+             .nodes()
+             .each(function(cell, i) {
+               cell.innerHTML = i + 1;
+             });
+      }).draw();
+
+      // Only one audio plays at a time
+      $(document).on('play', 'audio', function() {
+        $('audio').not(this).each(function() { this.pause(); });
+      });
+
+      // Hook up our custom “sort” buttons
       $('#audioTable thead').on('click', 'button[data-col]', function() {
         var col = $(this).data('col');
         var current = table.order()[0] || [];
-        var dir = current[0] === col && current[1] === 'asc' ? 'desc' : 'asc';
+        var dir = (current[0] === col && current[1] === 'asc') ? 'desc' : 'asc';
         table.order([col, dir]).draw();
       });
     });
