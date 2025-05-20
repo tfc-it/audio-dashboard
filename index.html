@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HJ Cassettes Log</title>
+
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
   <!-- FixedHeader CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
+
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
 
@@ -44,6 +46,23 @@
     table.dataTable thead tr.sort-btn-row button {
       width: 100%;
       box-sizing: border-box;
+    }
+
+    /* Audio player + controls styling */
+    .player-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .audio-controls {
+      display: flex;
+      gap: 10px;
+      font-size: 0.9em;
+    }
+    .audio-controls label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
   </style>
 </head>
@@ -107,38 +126,48 @@
   <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
   <script>
     $(document).ready(function() {
-      // figure out how tall the legend is so the fixed header sits below it
+      // measure legend height for fixedHeader offset
       var legendHeight = $('fieldset.legend').outerHeight();
 
       var table = $('#audioTable').DataTable({
-        ajax: {
-          url: 'data.json?ts=' + Date.now(),
-          dataSrc: ''
-        },
+        ajax: { url: 'data.json?ts=' + Date.now(), dataSrc: '' },
         paging: false,
         order: [],
         columns: [
-          // 1) empty placeholder for row numbers
+          // static row-number placeholder
           { data: null, orderable: false, defaultContent: '' },
-          // 2) audio player
+          // audio + custom controls
           {
             data: 'audio',
             orderable: false,
             render: function(path) {
-              return '<audio controls preload="none" src="' + path + '"></audio>';
+              return `
+                <div class="player-wrapper">
+                  <audio controls preload="none" src="${path}"></audio>
+                  <div class="audio-controls">
+                    <label>Speed:
+                      <select class="speed-select">
+                        <option value="0.5">0.5x</option>
+                        <option value="0.75">0.75x</option>
+                        <option value="1" selected>1x</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x</option>
+                        <option value="2">2x</option>
+                      </select>
+                    </label>
+                    <label>Volume:
+                      <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1">
+                    </label>
+                  </div>
+                </div>
+              `;
             }
           },
-          // 3) Side A
           { data: 'sideA' },
-          // 4) Side B
           { data: 'sideB' },
-          // 5) Date
           { data: 'date' },
-          // 6) Length
           { data: 'length' },
-          // 7) Quality
           { data: 'quality' },
-          // 8) Entry Reason
           { data: 'entryReason' }
         ],
         fixedHeader: {
@@ -147,7 +176,7 @@
         }
       });
 
-      // After every draw (sort, search, page, etc.), update the row numbers
+      // keep row # static on each draw/search/order
       table.on('draw.dt order.dt search.dt', function() {
         table.column(0, { order: 'applied', search: 'applied' })
              .nodes()
@@ -156,12 +185,29 @@
              });
       }).draw();
 
-      // Only one audio plays at a time
-      $(document).on('play', 'audio', function() {
-        $('audio').not(this).each(function() { this.pause(); });
+      // only one audio at a time — using capture-phase listener
+      document.addEventListener('play', function(e) {
+        if (e.target.tagName && e.target.tagName.toLowerCase() === 'audio') {
+          // pause all other audio elements
+          document.querySelectorAll('audio').forEach(function(a) {
+            if (a !== e.target) a.pause();
+          });
+        }
+      }, true);
+
+      // attach speed control
+      $('#audioTable tbody').on('change', '.speed-select', function() {
+        var audio = $(this).closest('.player-wrapper').find('audio')[0];
+        audio.playbackRate = parseFloat(this.value);
       });
 
-      // Hook up our custom “sort” buttons
+      // attach volume control
+      $('#audioTable tbody').on('input', '.volume-slider', function() {
+        var audio = $(this).closest('.player-wrapper').find('audio')[0];
+        audio.volume = parseFloat(this.value);
+      });
+
+      // custom sort buttons
       $('#audioTable thead').on('click', 'button[data-col]', function() {
         var col = $(this).data('col');
         var current = table.order()[0] || [];
